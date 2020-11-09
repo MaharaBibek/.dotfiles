@@ -1,0 +1,5 @@
+[[seDdm]]
+
+new dir in VimWiki.
+This is a test of:
+<leader>ww - Opens default wiki index file, but prompted for new dir to open.
