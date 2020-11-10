@@ -1,270 +1,3 @@
-cp ../.xinputrc inputrc/
-ls -la inputrc/
-mkdir lxc
-mkdir lxc/.config
-cp ../.config/lxc/ lxc/.config/
-ls -laR lxc
-cp -r ../.config/lxc/ lxc/.config/
-ls -laR lxc
-ls -la
-mkdir i3
-clear
-mkdir polybar
-ls -la
-ls -la i3
-mkdir dmenu
-ls -la binwalk/
-ls -laR binwalk/
-clear
-ls -la
-ls -laR zsh/
-ls -laR lxc
-seDdm 
-stow arc42.md 
-docs
-ls
-ls -la HTML
-ls -laR HTML/
-ls -laR WebGL/
-stow HTML/
-ls -laR ../HTML5
-stow WebGL/
-ls -laR ../WebGL
-file WebGL/
-stow WebGL
-ls -laR ../HTML5
-rm ../HTML5
-ls -laR ../HTML5
-ls WebGL/
-ls -la WebGL/
-stow WebGL/
-touch WebGL/webgl
-stow WebGL/
-touch WebGL/.webgl
-stow WebGL/
-touch WebGL/.WebGl
-stow WebGL/
-
-touch WebGL/.WebGlrc
-stow WebGL/
-ls -la
-ls -la WebGL/
-stow HTML/
-ls -la ../HTML5
-rm ../HTML5
-ls -la ../HTML5
-ls -la swift/
-stow swift/
-rm WebGL/.web*
-ls -la WebGL/
-rm WebGL/.Web*
-ls -la WebGL/
-rm WebGL/webgl.xyz 
-ls -la WebGL/
-clear
-ls swift/
-ls -la swift/
-touch swift/.swiftrc
-ls -la swift/.swiftrc 
-stow swift/
-ls -la swift/.swiftrc 
-ls -la swift/
-touch swift/.bashrc
-stow swift/
-ls -la ../
-rm ../.bashrc ../CodingTech ../.swiftrc ../The\ Past\,\ Present\ and\ Future\ of\ Swift\ —\ SitePoint.desktop ../webgl.xyz ../.webgl ../.WebGl ../.WebGlrc 
-ls -la ../
-ls -la swift/
-rm ../List\ of\ WebGL\ frameworks\ -\ Wikipedia.desktop 
-ls -la ../
-clear
-cd
-ls -laR
-clear
-ls -la
-find ../../ -iname "*webgl*.md" 
-clear
-find ../../ -iname "*webgl*" 
-clear
-seDdm 
-find ../../ -iname "*webgl*" 
-ls -la
-clear
-cd
-ls -la
-vim index.md 
-seDdm 
-vifm
-cd
-cd dotfiles/
-ls
-touch README.md
-ls
-ls -n1
-ls -h -n1
-ls -1
-clear
-ls -n1
-ls 
-ls -1 >> README.md 
-vim README.md 
-touch install_apps.sh
-vim install_apps.sh 
-ls
-ls ~/.config/
-mkdir ranger
-vim README.md 
-vim stowrestore.sh
-ls -a stowrestore.sh 
-ls -al stowrestore.sh 
-vifm
-vifm .
-cd ../test/test1/test2/dotfiles/
-clear
-ls -la ../
-chmod u+x stowrestore.sh 
-ls -la stowrestore.sh 
-source stowrestore.sh 
-ls -la ../
-rm .*
-ls -la ../
-vifm ./
-ls
-cd ../
-ls -la
-cd ../
-ls -la
-cd ../
-cd dotfiles/
-cd ../test/
-ls -la
-cd -
-clear
-ls -la
-ls -lash
-ls -sla
-ls -slah
-cd
-clear
-cd Documents/workspace.linux/
-ls
-cd gitTest/
-git status
-git log --oneline
-git log
-git log --HelloPython.py
-git log -- HelloPython.py
-git log --all --decorate --graph HelloPython.py
-clear
-git diff
-git diff --staged
-git diff -- staged
-git reset HEAD 
-git diff
-git status
-git status HelloPython.py
-git branch test
-git branch
-git checkout test
-git branch
-git checkout -b tset
-git branch
-git checkout master
-git branch
-git branch -d test tset
-git branch
-vim ~/.zshrc 
-cd ~/dotfiles/
-ls
-vim zsh/.zshrc 
-cd
-vim .zshrc 
-vim index.md 
-cd
-vim vim.ssn 
-vim -Svim.ssn 
-vim -S vim.ssn  
-seDdm 
-vifm
-cd ../
-ls -al *
-clear
-ls -al 000_config.etc/
-ls -al 000_config.etc
-clear
-ls -al
-rm -rf 000_config.etc/
-clear
-ls -al
-sudo chmod 777 000_config.etc/
-rm -rf 000_config.etc/
-clear
-su
-clear
-find ../../ -iname "*basename*" 
-cp ~/dotfiles ./
-ls -la
-clear
-man cp
-cp -r ~/dotfiles ./
-find ../../ -iname "*basename*" 
-seD
-clear
-seDdm 
-vifm
-vim -s vim.ssn 
-vim -S vim.ssn 
-vim -s vim.ssn 
-vim -S vim.ssn 
-vim ~/dotfiles/zsh/.zshrcu.zshrc 
-vim ~/dotfiles/zsh/.zshrc 
-man basename 
-man readlink
-find ../../ -iname "*readlink*" 
-cd dotfiles/
-ls
-mkdir v1
-mv * v1/
-mv v1/ ../
-mv * ../v1/
-mv -r * ../v1/
-mv -rf * ../v1/
-mv -rf "*" ../v1/
-mv -R "*" ../v1/
-clear
-man mv
-mv "*" ../v1
-mv "*" ../v1/
-mv * ../v1/
-ls -la
-mv ../v1/ .
-ls
-ls -la v1/
-vim v1/README.md 
-ls
-mkdir v2
-cp -r v1/* v2/
-cd v2
-ls -la
-rm install_apps.sh 
-vim stowrestore_v2.sh 
-vim ../v1/stowrestore.sh 
-vim stowrestore.sh 
-ls -la
-ls -la ../v1
-ls -la ~/dotfiles/
-chmod u+x stowrestore.sh 
-ls stowrestore.sh 
-ls -l stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh hug
-vim stowrestore.sh 
-./stowrestore.sh menu
-./stowrestore.sh
-vim index.md 
 cp ~/vim.ssn ~/vim1.ssn
 rm ~/vim1.ssn
 man readlink
@@ -1998,3 +1731,270 @@ ls
 ls -n1
 ls -1
 ls -1 | wc
+cd ~/dotfiles/
+ls -la
+git init
+git status 
+git add .
+ls -la
+git status 
+git remote -v
+git remote add origin 
+git remote -v
+git remote add origin https://github.com/MaharaBibek/.dotfiles
+graph 
+git commit -a -m "Dotfiles Initialized."
+graph
+git push origin 
+git push origin master 
+graph 
+vim index.md 
+seDdm 
+vifm
+cd ../CODE/TOOLs/VersionControlSystem/Git/
+ls -al
+mkdir gitRemote
+cd -
+cd gitRemote/
+ls -la
+touch README.md
+ls -la
+git init
+ls -la
+git status
+git add .
+git status
+vim README.md 
+git status 
+git add .
+git status 
+git diff
+git diff --staged 
+git commit
+graph 
+git remote -v
+git remote 
+git remote
+ls -al
+mkdir test && cd test
+git clone https://github.com/MaharaBibek/LocalGitHub
+git status
+ls -la
+cd LocalGitHub/
+git status
+git remote
+graph 
+git log 48
+git log 48ff
+ls al
+ls -al
+vim *
+vim .gitignore .gitattributes 
+ls -la
+vim README.md
+git sta
+git status 
+git diff
+ls -al
+mv README.md ../
+git status
+vim ../README.md 
+mv ../README.md .
+git status 
+git add .
+git diff
+git diff --staged
+git reset HEAD 
+git diff
+git diff --staged
+ls -al
+git status 
+git diff
+vim README.md 
+rm README.md 
+git status 
+ls -al
+touch README.md
+git status 
+git diff
+vim README.md 
+cat README.md 
+git diff
+< README.md
+echo $0
+echo $?
+README.md <
+cat README.md 
+README.md < /dev/null 
+<README.md 
+cat README.md 
+< README.md 
+cat README.md 
+> README.md 
+cat README.md 
+git status 
+git diff
+git add .
+git diff
+git diff --staged 
+git commit -m "FILE CREATED
+git commit -m "CREATION: File"
+git status 
+graph 
+cat README.md 
+vim README.md 
+git diff
+graph
+git remote -v
+git diff
+git commit -m "FILE content: `README.md`"
+git stat
+git status 
+graph
+git commit -m "FILE content: README.md"
+git diff
+git diff --staged 
+cat README.md 
+git status 
+git diff
+git status 
+git diff --staged 
+git diff
+git commit -a -m "FILE content ADDITIONREADME.md"
+git commit -a -m "README.md: FILE content ADDITION"
+git status 
+git diff
+git diff --staged 
+graph 
+git remote -v
+graph 
+ls -al
+git status
+graph
+git checkout origin/master
+graph
+la -al
+git checkout .
+graph
+git checkout master
+graph 
+git checkout origin/HEAD 
+graph
+graph 
+git checkout master 
+graph 
+git push
+graph 
+git remote -v
+git diff --staged 
+git -a -m "Testing remote-repo"
+git commit -a -m "Testing remote-repo"
+graph 
+git diff --staged 
+git diff 
+git push
+git remote -v
+ls al
+ls -al
+graph 
+git status 
+git remote -v
+git branch -a
+graph 
+git branch -r
+graph 
+git branch -b edit-README
+git checkout -b edit-README
+git branch 
+vim README.md 
+git diff
+graph 
+git branch 
+git commit -a -m "README.md: Edited"
+graph 
+git push origin edit-README 
+git remote -v
+git push origin edit-README 
+git remote -v
+graph 
+git fetch origin 
+graph 
+git branch 
+git remote -v
+git remote add testRepo https://github.com/MaharaBibek/test
+git remote -v
+graph 
+ls -al
+cat README.md 
+git checkout master 
+cat README.md 
+git checkout edit-README 
+git branch
+git push testRepo 
+graph 
+git remote -v
+graph 
+git branch -d edit-README 
+git checkout master 
+git branch -d edit-README 
+git branch -D edit-README 
+graph 
+git diff
+git diff --staged 
+git branch 
+git push testRepo 
+git status
+ls -al
+git remote -v
+git remote remove testRepo 
+git remote -v
+git fetch 
+git status 
+graph 
+cat README.md 
+git branch 
+git checkout origin/
+git checkout origin
+graph 
+git checkout master 
+graph 
+git checkout edit-README 
+graph 
+git branch 
+git branch -D edit-README 
+git checkout master 
+git branch -D edit-README 
+graph 
+git branch
+git remote -v
+git push 
+graph 
+git branch 
+git fetch 
+graph 
+git branch 
+git checkout edit-README 
+git branch 
+git checkout master 
+graph 
+ls -al
+git remote -v
+graph 
+git remote -v
+git hist
+git status 
+graph 
+cd ../../
+graph 
+vifm
+vim ~/.bashrc 
+Ddm
+vifm .
+vim ~/.bashrc 
+source ~/.bashrc 
+git_workshop 
+source ~/.bashrc 
+vim ~/.bashrc 
+source ~/.bashrc 
+git_workshop 
+ls -la

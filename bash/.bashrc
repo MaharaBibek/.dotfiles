@@ -133,6 +133,7 @@ alias o="xdg-open ."
 alias x=xdg-open
 
 # Path Alias
+alias git_workshop='cd /home/variable/git_workshop'
 alias docs='cd /home/variable/Documents/#docs'
 alias Ddm='cd /home/variable/Documents/#docs/SE/seDdm/research.docProc/Markdown' # Ddm - Docx/s Dot Markdown
 alias seDdm='cd /home/variable/Documents/#docs/SE/seDdm'
@@ -143,7 +144,7 @@ alias osDdm='cd /home/variable/Documents/#docs/SE/os.UNIX\|Linux/osDdm'
 
 alias androidDdm='cd /home/variable/Documents/#docs/ANDROID/AndroidDdm'
 
-# PY
+# Path Alias: PY
 alias pyDoc='cd /home/variable/Documents/#docs/Python'
 alias pyDev='cd /home/variable/Documents/#docs/SE/CODE/codeDdm/codebase/Python/'
 
@@ -153,4 +154,5 @@ alias androidDev='cd /home/variable/Documents/#docs/ANDROID'
 alias rDev='cd /home/variable/Documents/#docs/R'
 
 # GitHub
-alias graph="git log --all --decorate --oneline --graph"
+alias graph="git log --all --decorate --oneline --graph" 
+alias graphlg="git log --all --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white) - %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative"
