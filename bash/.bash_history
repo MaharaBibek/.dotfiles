@@ -1,135 +1,3 @@
-cp ~/vim.ssn ~/vim1.ssn
-rm ~/vim1.ssn
-man readlink
-echo $USER
-echo $0
-readlink $0
-basename ~/dotfiles/lxc/.config/lxc/client.key 
-cd dotfiles/
-cd v2/
-ls -la
-mkdir stow_home
-mkdir stow_root
-mv stow_home/ ../
-mv stow_root/ ../
-cp -r * ../stow_root/
-mv -r * ../stow_root/
-ls -la
-ls -la ../stow_root/
-ls -la ../stow_home/
-mv --r * ../stow_root/
-ls -la ../stow_root/
-man mv
-mv * ../stow_root/
-ls -la
-cd ../
-ls -la
-mv stow_* v2
-ls -la
-la
-las
-clear
-la
-ls -la
-cd v2
-ls -la
-ls -la stow_home/
-ls -la stow_root/
-ls -la
-clear
-ls
-rm ~/vim1.ssn
-cd ~/dotfiles/
-ls -la
-seDdm 
-cd dotfiles/
-ls -la
-cd v1
-ls -la
-vim stowrestore.sh 
-cd ../v2
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-ls -ls
-cd stow_home/
-clear
-ls -la
-vim stowrestore.sh 
-ls -ls
-cd ../stow_root/
-ls -la
-mkdir ../evdev ../systemdnetwork
-rm -r *
-ls -la
-mv ../evdev/ ../systemdnetwork/ ./
-ls -la
-ls -la ../
-mkdir systemdnetwork/etc
-cd systemdnetwork/
-ls -la
-cd etc/
-mkdir openvpn systemd
-ls -la
-ls ../
-ls ../../ -la
-ls -la
-clear
-ls -la
-cd ../../../stow_home/
-pwd
-clear
-pwd
-ls -la
-for d in *;do echo $d; done
-for d in *;do echo $d; done | wc
-for d in *;do echo $d; done | wc
-for d in *;do echo $d; done
-clear
-ls -la'
-ls -la
-ls ../
-ls -la ../stow_root/evdev/
-ls -la ../stow_root/systemdnetwork/
-clear
-ls -la
-./stowrestore.sh 
-./stowrestore.sh pass
-vim stowrestore.sh 
-./stowrestore.sh
-ls -la stowrestore.sh 
-source stowrestore.sh 
-source stowrestore.sh hug
-vim stowrestore.sh 
-source stowrestore.sh hug
-vim stowrestore.sh 
-source stowrestore.sh hug
-vim stowrestore.sh 
-source stowrestore.sh
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-vim stowrestore.sh 
-./stowrestore.sh 
-man test
 ./stowrestore.sh hug
 clear
 hug
@@ -1998,3 +1866,135 @@ vim ~/.bashrc
 source ~/.bashrc 
 git_workshop 
 ls -la
+cd ~/dotfiles/
+git status 
+git diff
+clear
+git status 
+git diff .bashrc
+git add .bashrc
+git add bash/.bashrc 
+git diff
+clear
+git diff --staged 
+git remote -v
+git push 
+git push origin master 
+graph
+git diff --staged 
+clear
+git commit -am "FILE: '.bashrc' - Contents of GitHub,..."
+graph
+graphlg 
+git push
+git remote -v
+git push origin master 
+graphlg 
+git diff --staged 
+source ~/.bashrc 
+git_workshop 
+ls -la
+git_workshop 
+cd git_academy/
+ls
+cd gitRemote/
+graph 
+git remote -v
+git fetch 
+git status 
+git branch --merged 
+git branch 
+git push origin master --delete edit-README
+graph 
+git push origin master --delete edit-README
+ls -al
+graph
+clear
+graph
+vim ~/.bashrc 
+source ~/.bashrc 
+graph 
+vim ~/.bashrc 
+
+git log --all --decorate --oneline --graph --date=relative
+git log --all --decorate --oneline --date=relative
+git log --all --decorate --oneline --graph --date=relative
+git fetch 
+git log --all --decorate --oneline --graph --date=relative
+git log --all --decorate --oneline --graph --date=relative --abbrev-commit 
+git log --all --graph --date=relative --abbrev-commit 
+clear
+git log
+git log --all --decorate --oneline --graph --date=relative --abbrev-commit 
+git log --all --decorate --graph --date=relative --abbrev-commit 
+git log --all --oneline --graph --date=relative --abbrev-commit 
+git log --all --decorate --graph --date=relative --abbrev-commit 
+git log --all --decorate --oneline --graph --date=relative --abbrev-commit 
+git log --all --decorate --oneline --graph --date=relative
+vim ~/.bashrc 
+source ~/.bashrc 
+graph 
+clear
+vim ~/.bashrc 
+source ~/.bashrc 
+graph
+graphlg 
+
+git config --global alias.lg "log --all --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white) - %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative"
+lg
+git lg
+emacs
+vim index.md 
+seDdm 
+vim index.md 
+vifm
+vifm
+git_workshop 
+ls -la
+git config
+git config --list
+git config --global user.name "Mahara"
+git config --list
+git config --global user.name "Mahara,Bibek"
+git config --list
+
+git config --global/system/local user.name "B. Mahara"
+git config --global/system/local user.name "B.Mahara"
+clear
+git config --list
+git config --global user.email "bbekmahara@gmail.com"
+git config --list
+graph
+man git
+vim ~/.bashrc
+git config --global core.editor vim
+git config --list
+vim ~/.gitconfig 
+ls -la ../
+ls -la ../dotfiles/
+cd ../dotfiles/
+ls -la
+stow --adopt -nv ../.gitconfig 
+mkdir git
+touch git/.gitconfig
+stow --adopt -nv git/
+stow --adopt -v git/
+ls -al ../
+ls -al 
+ls -al ~/.local/share/
+ls -al ~/.local/share/zeitgeist/
+ls -al ~/.local/share/lxc/
+ls -al ~/.local/share/lxc/LaTeX/
+ls -al ~/.local/share/lxc/debianPG/
+ls -al ~/.local/share/lxc/myFirstUbuntuContainer/
+vim -al ~/.local/share/lxc/myFirstUbuntuContainer/myFirstUbuntuContainer.log 
+vim ~/.local/share/lxc/myFirstUbuntuContainer/myFirstUbuntuContainer.log 
+clear
+git_workshop 
+git config --list 
+vim ~/.gitconfig 
+cd ~/dotfiles/
+git status
+ls -la
+ga
+git a
