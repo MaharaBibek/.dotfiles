@@ -2,7 +2,9 @@
 	email = bbekmahara@gmail.com
 	name = Mahara,Bibek
 [alias]
+	graph = log --all --decorate --oneline --graph
 	lg = log --all --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white) - %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
 	a = add .
+	ap = add -p
 [core]
 	editor = vim
