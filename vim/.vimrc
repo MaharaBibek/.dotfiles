@@ -369,4 +369,4 @@ let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown'
 " .vimrc
 
 " Read an empty HTML template and move cursor to title
-nnoremap ,html :-1read ~/.vim/.skeleton.html<CR>3jwf>a
+nnoremap ,html :-1read ~/.vim/custom-files_skeletons/.skeleton.html<CR>3jwf>a

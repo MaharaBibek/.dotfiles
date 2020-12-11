@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ngin
+~MSle0~/tiling
 
 # Last Substitute Search Pattern:
 ~MSle0&^#
@@ -19,13 +19,49 @@ $
 # Command Line History (newest to oldest):
 :q
 :w
-:q:q
 :wq
+:'<,'>!sort
 :q!
-:qw
+:qa
 ::
-:.!q
+:w event.txt
+:bn
+:!w
+:w!
+:q'
+:tabm +1
+:! reload
+:!reload
+:"
+:"q
+:mksession! ~/vim.ssn
+:Explore
+:buffer
+:b 1
+:ls
+:tabm 0
+:! ls
+: target '-' is not a directory
+:we
+:registers
+:buffers
+::w
+:!bn
+:qa!
+:bn!
+:w'
+::q
+:'<,'>!wc
+:'<,'>wc
+:'<,'>w hexdsl
+:$p
 :!q
+:qall
+:mksession ~/vim.ssn
+:!mksession ~/vim.ssn
+:q:q
+:qw
+:.!q
 :InstantMarkdownPreview
 :gg
 :a
@@ -33,23 +69,16 @@ $
 :vs /etc/default/rsync
 :!vim /etc/default/rsync
 :!vim /etc/rsyncd.conf
-:ls
 :!chmod 777 %
-:w!
 :! chmod 777 %
 :! sudo w
 :!sudo chmod 777 %
-:qa
 :s
-:qa!
-:w'
 :ew
 :c
 :L
-:we
 :wkkk
 :VimwikiTable 3 2
-:tabm 0
 :tabdo !chmod 664 % w
 :tabdo !chmod 777 % w
 :tabdo !chmod o-x % w
@@ -60,7 +89,6 @@ $
 :1,3bufdo !chmod o+x % w
 :bufdo !chmod o-x % w
 :bufdo !chmod o+x % w
-:bn
 :args *
 :args
 :w\
@@ -107,7 +135,6 @@ $
 :VimwikiTable 7 8
 :'<,'>! wc
 :'<,'>! echo wc
-:'<,'>wc
 :VimwikiTable 5 10
 :VimwikiTable 10 5
 :LPF
@@ -115,7 +142,6 @@ $
 :w arc42_test.md
 :w]
 :wq\
-:'<,'>!wc
 :h :wn
 :reg m
 :n
@@ -123,11 +149,9 @@ $
 :bp
 :wn!
 :n!
-:b 1
 :next
 :w1
 :'<,'>w
-:qall
 :tabdo ! chmod 777
 :1,3tabdo ! chmod 777
 :tabdo !chmod 777
@@ -190,7 +214,6 @@ $
 :bdelete2
 :bdelete 1
 :bdelete ~/Documents/\#docs/SE/CODE/IDE/Vim/vDdm/index.md
-:buffer
 :b7
 :buffer 2
 :buffer1
@@ -199,7 +222,6 @@ $
 :bufferN
 :b index.md
 :buffre
-:buffers
 :Buffers
 :b ~/Documents/\#docs/SE/CODE/codeDdm/TextSurgeryTools/index.md
 :b
@@ -208,7 +230,6 @@ $
 :ex
 :reg
 :sh
-:Explore
 :e
 :bufdo!chmod 777:q
 :bufdo!chmod 777
@@ -303,7 +324,6 @@ $
 :-o newFile
 :bfnew
 :newbuf
-:tabm +1
 :ta
 :Lex!
 :Lex
@@ -327,7 +347,6 @@ $
 :-o ~/xyz.abc
 :-o xyz.abc
 :buflist
-:!w
 :o ~/test
 :-o ~/test.xyz
 :write ~/test.xyz
@@ -419,7 +438,6 @@ $
 :set laststatus=5
 :TOhtml
 :aboveleft
-::w
 :mksession vimSession.vis
 :resize 100
 :resize vertical 20
@@ -441,7 +459,6 @@ $
 :W
 :VimwikiTable 2 2
 :'<,'>!wc -l
-:'<,'>!sort
 :.,.+32q
 :explore
 :!mv "JWT-JSON TOKEN.md" "JWT-JSON Web TOKEN.md"
@@ -488,7 +505,6 @@ $
 :cat arch24.md
 :top CtrlP
 :! find ../../ -iname "*file*descriptor*"
-:! ls
 :$ find a*
 :$ htop
 :gTk$ find /home/variable/Documents/\#docs/ "*format*"
@@ -531,26 +547,392 @@ $
 :=
 
 # Search String History (newest to oldest):
+?/tiling
+?/distro
+?/kal
+?/luke
+?/dwm
+?/tili
+?/windo
+?/feh
+?/wall
+?/login
+?/naut
+?/awe
+?/dsf
+?/awesome
+?/sdf
+?/open
+?/xfce
+??w
+?/gnome
+?/gnomw
+?/gui
+?/tool
+?/void
+?/latex
+?/vimwiki
+?/mode
+?/mode'
+?/sadf
+?/python
+?/powerline
+?/ctrl
+?/nerd
+?/netd
+?/vim
+?/ctrlp
+?/nit
+?/nit	
+?/wal
+?/commit
+?/stow
+?/dot
+?/git
+?/vers
+?/crypt
+?/deb
+?/trap
+?/email
+?/number
+?/col
+?/com
+?/address
+?/color
+?/qr
+?/os
+?/guid
+? \/'
+?/sh
+?/back
+?/tools
+?/code
+?/background
+?/scale
+?/3d
+?/got
+?/test
+?/testing
+?/bash
+?/shel
+?/bg-scal
+?/grap
+?/esewa
+?/window
+?/phys
+?/:
+?/or
+?/folder
+?/tree
+?/package
+?/pack
+?/)
+?/adopt
+?/-t
+?/ -t \~
+?/ \~
+?/~
+?/d 
+?/dsaf
+?/search
+?/apt
+?/gith
+?/sewa
+?/auth
+?/batman
+?/proto
+?/network
+?/doctor
+?/mark
+?/pandoc
+?/face
+?/r mark
+?/image
+?/automation
+?/control
+?/auto
+?/cron
+?/autom
+?/rebase
+?/reba
+?/stack
+?/gmail
+?/google
+?/stackov
+?/reset
+?/fast
+?/merg
+?/eng
+?/bare
+?/===
+?/>>>
+?/rerere
+?/mer
+?/log
+?/ad
+?/adva
+?/meroshare
+?/rebas
+?/comm
+?/conf
+?/delete
+?/local
+?/sdaf
+?/config
+?/dad
+?/tcp
+?/(
+?/logic
+?/theory
+?/shah
+?/capa
+?/sistor
+?/resis
+?/theor
+?/n
+?/resist
+?/phsy
+?/therm
+?/hard
+?/sess
+?/manu
+?/dyn
+?/dist
+?/dyna
+?/plybar
+?/ver
+?/xmona
+?/index
+? @$
+?/sed
+?/xmonad
+?/inde
+?/bisect
+?/asdf
+?/<++>
+?/alias
+?/versi
+?/apple
+?/stas
+?/stash
+?/bra
+?/bran
+?/push
+?/remote
+?/doc
+?/research
+?/github
+?/david
+?/ma
+?/rem
+?/r
+?/mah
+?/upstre
+?/merge
+?/soli
+?/arch
+?/pull
+?/remove
+?/origin
+?/upstream
+?/fork
+?/fetch
+?/diff
+?/list
+?/desc
+?/file
+?/attribute
+?/read
+?/commi
+?/head
+?/ss
+?/save
+?/custom
+?/chara
+?/check
+?/4
+?/detach
+?/checkout
+?/branc
+?/Scot
+?/scot
+?/chacoon
+?/tab
+?/branch
+?/stag
+?/hash
+?/	
+?/chacon
+?/chaco
+?/git 
+?/add
+?/graph
+?/clone
+? \s\+$
+?/steel
+?/virtual
+?/ajn
+?/brodie
+? \<C\>
+?/vmap
+?/goyo
+?/mapleader
+?/map
+?/text
+?/enter
+?/space
+?/dev
+?/packa
+?/dotfile
+?/name
+?/sf
+?/physi
+?/dean
+?/ido
+?/caree
+?/c
+?/future
+?/program
+?/arm
+?/achine
+?/ai
+?/ssl
+?/artifi
+?/deep
+?/learn
+?/steve
+?/jobs
+?/ste
+?/care
+?/ui
+?/wm
+?/vm
+?/iota
+?/ethere
+?/block
+?/agri
+?/start
+?/Agri
+?/ultra
+?/radio
+?/rf
+?/lora
+?/ph
+?/target
+?/-D
+?/-N
+?/-S
+?/-n
+?/alacr
+?/awesom
+?/termite
+?/term
+?/i3
+?/crit
+?/emula
+?/emular
+?/rxvt
+?/alacri
+?/data
+?/sway
+?/wind
+?/hidd
+?/ranger
+?/lk
+?/codebasic
+?/scri
+?/struc
+?/computer
+?/monad
+?/type
+?/princi
+?/math
+?/algo
+?/dsa
+?/comp
+?/appro
+?/wolf
+?/approach
+?/-a
+?/-P
+?/-u
+?/-r
+?/rsy
+?/adn
+?/androi
+?/adb
+?/Mo
+?/mob
+?/mount
+?/mnt
+?/andoi
+?/mosh
+?/mos
+?/shell
+?/mobn
+?/snowfall
+?/vpn
+?/vps
+?/snow
+?/sec
+?/worlf
+?/yay
+?/hex
+?/call
+?/loop
+?/while
+?/for
+?/mv
+?/link
+?/rad
+?/hug
+?/usage
+?/column
+?/title
+?/stow -t
+?/me
+?/stream
+?/twit
+?/peer
+?/l
+?/-L
+?/basename
+?/prog
+?/menu
+?/default
+?/zsh
+?/script
+?/maria
+?/db
+?/restore
+?/version
+?/sql
+?/react
+?/vue
+?/history
+?/d
+?/ln
+?/-d
+?/df
+?/termit
+?/xterm
+?/st
+?/manager
+?/xdg
 ?/ngin
 ?/server
-?/tool
-?/network
 ?/socket
 ?/protoco
 ?/websock
 ?/high
-?/os
 ?/dis
 ?/docker
 ?/virt
 ?/patter
-?/arch
 ?/pattern
 ?/wire
-?/tcp
 ?/proxy
 ?/system
-?/proto
 ?/tls
 ?/grpc
 ?/http
@@ -559,62 +941,30 @@ $
 ?/tols
 ?/pos
 ?/load
-?/db
 ?/networ
 ?/tutorial
 ?/grafa
 ?/micro
-?/dot
-?/phys
 ?/red
-?/file
 ?/foren
-?/image
-?/(
 ?/format
 ?/iso
-?/packa
 ?/snap
-?/start
 ?/glob
 ?/reg
-?/stow
-?/dev
-?/data
-?/monad
 ?/json
-?/asdf
-?/term
-?/wind
 ?/asdflkj
-?/lora
-?/hard
 ?/corey
-?/git
-?/vers
 ?/atla
-??w
 ?/chsh
-?/shel
 ?/john
 ?/donut
-?/sadf
 ?/ps1
 ?/to
-?/bash
-?/sdaf
-?/config
 ?/]
-?/dist
-?/bare
-?/distro
-?/graph
 ?/status
-?/dsf
-?/version
 ?/recur
 ?/find
-?/radio
 ?/lpd
 ?/freq
 ?/wave
@@ -623,28 +973,18 @@ $
 ?/chip
 ?/mic
 ?/theo
-?/dsaf
 ?/lorawan
 ?/better
-?/vim
-?/<++>
-?/ln
 ?/watch
-?/log
 ?/(]
 ?/-f
 ?/grep
 ?/exec
 ?/xarg
-?/mosh
-?/sh
-?/mob
 ?/put
 ?/{
 ?/v
 ?/shop
-?/shell
-?/type
 ?/set
 ?/sho
 ?/env
@@ -652,7 +992,6 @@ $
 ?/curl
 ?/down
 ?/sdlkf
-?/-L
 ?/-i
 ?/-s
 ?/compa
@@ -670,12 +1009,9 @@ $
 ?/\\v
 ?/\\s
 ?/\s
-?/agri
 ?/agro
-?/pandoc
 ?/dmes
 ?/filesy
-?/tab
 ?/fstab
 ?/zfs
 ?/stora
@@ -683,7 +1019,6 @@ $
 ?/ddre
 ?/linux
 ?/ssh
-?/back
 ?/linuxtech
 ?/storage
 ?/ddres
@@ -703,16 +1038,11 @@ $
 ?/copy
 ?/asf
 ?//saf
-?/sf
 ?/workin
 ?/working
 ?/quid
 ?/perm
-?/text
-?/-r
 ?/-g
-?/sed
-?/)
 ?/optical
 ?/biodi
 ?/fwupd
@@ -724,7 +1054,6 @@ $
 ?/uefi
 ?/biosdisk
 ?/flashrom
-?/sdf
 ?/kern
 ?/S
 ?/lvfs
@@ -741,25 +1070,20 @@ $
 ?/firm
 ?/bios
 ?/dd
-?/hex
 ?/bb
 ?/u
 ?/memor
 ?/*
-?/rsy
-?/sewa
 ?/phi
 ?/thoug
 ?/phili
 ?/--check
 ?/finger
 ?/gpg
-?/crypt
 ?/trust
 ?/phil
 ?/--armor
 ?/uid
-?/-u
 ?/sign
 ?/recursive
 ?/genera
@@ -769,11 +1093,9 @@ $
 ?/encod
 ?/character
 ?/making
-?/python
 ?/pars
 ?/c]
 ?/programming con
-?/prog
 ?/parser
 ?/decent
 ?/achin
@@ -789,15 +1111,12 @@ $
 ?/matplot
 ?/fortran
 ?/py
-?/fast
-?/theory
 ?/pycon 2016
 ?/zath
 ?/view
 ?/TOOl
 ?/zathura
 ?/vianet
-?/auto
 ?/<!--
 ?/adjust
 ?/nic
@@ -811,7 +1130,6 @@ $
 ?/merojob
 ?/ring
 ?/chan
-?/-a
 ?/--sign
 ?/soft
 ?/screen
@@ -830,20 +1148,14 @@ $
 ?/sha
 ?/md5
 ?/mkd
-?/hash
 ?/output
 ?/-p
 ?/killall
 ?/kill
 ?/proce
 ?/post
-?/dotfile
-?/while
-?/script
-?/got
 ?/rc
 ?/vifm
-?/jobs
 ?/exclu
 ?/sdlf
 ?/include
@@ -856,7 +1168,6 @@ $
 ?/buff
 ?/paste
 ?/register
-?/search
 ?/direct transf
 ?/indirect t
 ?/scala
@@ -866,18 +1177,15 @@ $
 ?/java
 ?/C
 ?/lisp
-?/list
 ?/forth
 ?/prolog
 ? \<since\>
 ?/goto
 ?/cobol
 ?/fort
-?/logic
 ?/prolo
 ?/pas
 ?/del
-?/program
 ?/fandom
 ?/sear
 ?/e
@@ -888,7 +1196,6 @@ $
 ?/att
 ?/chmod
 ?/permission
-?/read
 ?/rwx
 ?/regist
 ?/ *{ic}
@@ -905,11 +1212,9 @@ $
 ?/king
 ?/train
 ?/learning
-?/~
 ?/-e
 ?/done
 ?/dba
-?/:
 ?/method
 ?/creating an object
 ?/setAge
@@ -930,7 +1235,6 @@ $
 ?/arti
 ?/joe
 ?/kris
-?/david
 ?/article
 ?/the
 ?/pipfile
@@ -939,303 +1243,18 @@ $
 ?/camel
 ?/pytho
 ?/bibekmahara
-?/gmail
-?/esewa
 ?/hotmail
 ?/online
-?/learn
 ?/perl
 ?/print
-?/pro
-?/cut
-?/desc
-?/prompt
-?/promp
-?/df
-?/uri
-?/url
-?/create
-?/nast
-?/res
-?/core
-?/redi
-?/category
-?/math
-?/wisdom
-?/pip
-?/block
-?/virtual
-?/power
-?/non
-?/profecali
-?/real
-?/profe
-?/chris
-?/Real
-?/tuts
-?/terminal
-?/install
-?/iot
-?/crypto
-?/care
-?/lxd
-?/most
-?/curi
-?/proof
-?/late
-?/consen
-?/textbf
-?/\
-?/cloud
-?/{\&
-?/\&
-?/R&
-?/&
-?/escap
-?/cryp
-?/rmdir
-?/rm
-?/direc
-?/remove
-?/dire
-?/delete
-?/uni
-?/tutoriaLi
-?/sen
-?/dex
-?/sent
-?/tut
-?/tutoriaLinux
-?/lxc
-?/tutorialinux
-?/tutoria
-?/path
-?/quot
-?/ruby
-?/pympler
-?/mmap
-?/pandas
-?/numpy
-?/mat
-?/jupy
-?/tensor
-?/markup
-?/sql
-?/jinja
-?/request
-?/flask
-?/package
-?/vi
-?/vritual
-?/environ
-?/last
-?/compil
-?/eng
-?/mecode
-?/word
-?/compliant
-?/future
-?/web
-?/rasp
-?/interpo
-?/idemp
-?/memoi
-?/jamie
-?/carpen
-?/carpe
-?/stru
-?/structure
-?/data st
-?/plug
-?/martin
-?/algo
-?/diff
-?/shuf
-?/rando
-?/tuto
-?/tutoriali
-?/tutoril
-?/hacker
-?/nc
-?/netw
-?/kuber
-?/levin
-?/seo
-?/sendtex
-?/howto
-?/arg
-?/libra
-?/er
-?/venv
-?/scri
-? \*
-?/infra
-?/vir
-?/clea
-?/prin
-?/NR
-?/in
-?/contro
-?/switch
-?/capital
-?/share
-?/	
-?/mac
-?/entre
-?/js
-?/refa
-?/refac
-?/even
-?/xml
-?/prot
-?/rpto
-?/as
-?/rest
-?/window
-?/explorer
-?/explore
-?/sound
-?/dry
-?/moni
-?/nagio
-?/busy
-?/apache
-?/httpd
-?/nginx
-?/ansible
-?/nagios
-?/na
-?/monitor
-?/test
-?/wmi
-?/puppet
-?/zabbix
-?/prome
-?/mon
-?/nagi
-?/prom
-?/dasf
-?/sec
-?/promi
-?/toptol
-?/too
-?/pre
-?/world
-?/zip
-?/dell
-?/andrea
-?/crossover
-?/ideal
-?/indeed
-?/pr
-?/aut
-?/local
-?/delet
-?/ntp
-?/net
-?/tar
-?/rsync
-?/playlist
-?/urban
-?/cross
-?/ecosys
-?/eco
-?/landing
-?/f1
-?/career
-?/vacancy
-?/repla
-?/bufdo
-?/new
-?/close
-?/normal
-? \<8\.\>
-? \<Do\>
-?/bufer-!
-? \<This\>
-?/%
-?/('
-?/mark
-?/haske
-?/buffer
-? \<7\.\>
-?/tabs
-?/gt
-?/dele
-?/No.
-?/No. 
-?/No
-?/sdlfk
-?/range
-?/ranger
-?/command
-?/*select*buffer*
-?/select buffer
-?/select
-?/section
-?/section 1
-? @$
-?/refactor
-?/code
-?/jwt
-? \<PUBLIC\>
-?/big
-?/bbek
-?/{R 
-?/R &
-?/research
-?/R & D
-?/r &
-?/wikibook
-?/documentclass
-?/usepackage
-?/title
-?/vaca
-?/ref
-?/wkhtml
-?/pdflatex
-?/biber
-?/maketitle
-?/#
-?/freelance
-?/free
-?/textit
-?/groff
-?/latex
-?/{\
-?/skip
-?/boot
-?/bootst
-?/regex
-?/tmux
-?/training
-?/pdflate
-?/tex
-?/luke
-?/maurice
-?/o
-?/frametitle
-?/ref{
-?/label
-?/asdfs
-?/api
-?/internet
-?/trans
-?/zero
-?/dns
-?/internet-cl
-?/admini
-?/sdkf
-?/gpt
-?/youtu
-?/von
-?/fou
-?/tranform
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
 @y
+@/home/variable/Documents/#docs/SE/CRYPTO/cryptoDdm/QR|BAR-Code/QR|BAR-Code.md
+@/home/variable/Documents/#docs/SE/CRYPTO/cryptoDdm/QR|BAR-Code
+@/home/variable/Documents/#docs/SE/CRYPTO/cryptoDdm/QR Code/QR|Bar-Code.md
 @n
 @yes
 @/home/variable/Documents/#docs/SE/os.UNIX|Linux/TOOLs/udev/udevd.md
@@ -1260,34 +1279,41 @@ $
 
 # Registers:
 "0	LINE	0
-	+ YouTube:
-	    - Hussein Nasser:
-	        * [High Availability](https://www.youtube.com/playlist?list=PLQnljOFTspQVPOt2GrGpq2_NRZjcdxzfu)
-"1	LINE	0
-	        * []()
-"2	LINE	0
-	        * [Proxies](https://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC)
-	        * [HAProxy](https://www.youtube.com/playlist?list=PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-)
-"3	LINE	0
 	
 	# TUTORIAL
+	+ YouTube:
+	    - DistroTube:
+	        * [My Top Five Minimal Terminal Emulators](https://www.youtube.com/watch?v=4o_QuwkFTf8)
+	        * [My Workflow - Tiling Window Managers, Workspaces and Multi-Monitors](https://www.youtube.com/watch?v=Q7j0-FMEya4)
+""1	LINE	0
+	        * [My Top Five Minimal Terminal Emulators](https://www.youtube.com/watch?v=4o_QuwkFTf8)
+"2	LINE	0
+	        * [Switching To Bspwm - Initial Thoughts](https://www.youtube.com/watch?v=VKSxDWLLfn4)
+"3	BLOCK	3
+	    
+	    
+	    
+	    
+	    
+	    
+	    
 "4	LINE	0
-	            * 
+	    - Floating-mode Layout:
 "5	LINE	0
-	    - Hussein Nasser:
-	        * [Web Security](https://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv)
+	    - Tree based Tiling WMs have less layouts comparatively.
 "6	LINE	0
-	            * 
-	    - Hussein Nasser:
-	        * [Web Security](https://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv)
-	
-	
+	        * *REF*: kalsan15-[TheAlternative.ch - LinuxDays FS16 - Linux for Experts course](https://www.youtube.com/watch?v=Api6dFMlxAA)
 "7	LINE	0
-	
+	+
 "8	LINE	0
-	
+	+ YouTube:
 "9	LINE	0
-	
+	+ YouTube:
+	    - Brian the Computer Geek:
+	        - [GUI Install](https://www.youtube.com/watch?v=SyB69EXEIIY) 
+	        - [tty or gui](https://www.youtube.com/watch?v=GSALKHKdIJo) 
+	    - DistroTube:
+	        * [My Top Five Minimal Terminal Emulators](https://www.youtube.com/watch?v=4o_QuwkFTf8)
 "a	LINE	0
 	+ softwarecarpentry
 	    - [Python](https://www.youtube.com/playlist?list=PLBC2E3FD80F2AC95F)
@@ -1296,53 +1322,16 @@ $
 	    - [Multimedia Programming](https://www.youtube.com/playlist?list=PL22C14945AED1AF09)
 "b	CHAR	0
 	0/(atput setas�kbf 00j
-"d@	CHAR	0
+"d	CHAR	0
 	0nr{lr}iboldlli${}0j
 "g	CHAR	0
 	Tq
 "h	CHAR	0
-	+ [Wiki:ENDODONTOLOGY](https://en.wikipedia.org/wiki/Endodontics)
-	+ [European Society of ENDODONTOLOGY](https://www.e-s-e.eu/index.html)
-	+ The European Society of Endodontology (ESE) was created in 1983 from the 
-	  existing European Academy of Endodontology. The Society was initially made-up 
-	  of ‘active’ individual members but was re-structured in 2001 into a federal 
-	  organisation representing national endodontic and dental societies throughout 
-	  Europe and a new category of ‘Certified’ individual members.
-	    - *REF*: [European Society of ENDODONTOLOGY](https://www.e-s-e.eu/index.html)
-	+ The ESE is now governed by a General Assembly made-up of country representative 
-	  from each member society and managed by an Executive Board that consists of 
-	  President, Paul; Dummer; President Elect, John Whitworth; Treasurer, Vittorio 
-	  Franco; Chair of Education and Scholarship Committee, John Whitworth; Chair of 
-	  Research Committee, Leo Tjäderhane; Chair of Clinical Practice Committee, 
-	  Gianluca Gambarini; Chair of Membership Committee, Hal Duncan; Chair of 
-	  Benefits of Endodontics Committee, Lise-Lotte Kirkevang.
-	    - *REF*: [European Society of ENDODONTOLOGY](https://www.e-s-e.eu/index.html)
-	+ Today, the ESE is a vibrant and dynamic organisation that has 36 member 
-	  societies from 33 European countries and represents over 7500 ordinary members 
-	  and over 500 individual specialist, certified, guest and postgraduate members.
-	    - *REF*: [European Society of ENDODONTOLOGY](https://www.e-s-e.eu/index.html)
-	+ The ESE is developing a number of exciting initiatives, including:
 	
-	    Achieving specialist status for Endodontology within Europe.
-	    Developing an accreditation process within Europe for postgraduate taught 
-	    programmes.
-	    Developing requirements for specialist status for individuals.
-	    Enhancing its communication with the profession, with dental companies and 
-	    with its membership.
-	    Promoting education and scholarship within the speciality of Endodontology 
-	    for the benefit of patients, dentists and students.
-	    Ensuring that it adopts best practice in terms of its governance arrangements.
-	    Investing in research and the support of young research workers.
-	    Enhancing further the ESE biennial congresses.
-	    Optimising clinical care for patients.
-	    Promoting standards in Undergraduate education.
-	
-	    Please take a look at the ESE website and its links to individual member 
-	    societies, to dental schools within Europe, to institutions running 
-	    postgraduate taught programmes and the new discussion and information Forums 
-	    and much much more …..
-	
-	
+	# TUTORIAL
+	+ YouTube:
+	    - DistroTube:
+	        * [Nitrogen Is A Fast And Lightweight Wallpaper Utility](https://www.youtube.com/watch?v=V4Kh2JBrpO0)
 "i	LINE	0
 	    - Tech Tuxedo:
 	        * [Learn Linux (Quick and Easy)](https://www.youtube.com/playlist?list=PLze0y7g5r5B-PlI4jLmc12ZRE4mDrKQIP)
@@ -1355,8 +1344,8 @@ $
 	k
 "l	CHAR	0
 	v$h/(/ r-wrebbbwrfLLuuuuuuuu
-"m	CHAR	0
-	0yyp
+"m@	CHAR	0
+	0dwi->>ra 0j
 "p	LINE	0
 	    - LinuxTechShow:
 	        * [See If Your Hard Drive Thinks It's Failing](https://www.youtube.com/watch?v=PVbH6Elr2gs) - DONE
@@ -1415,158 +1404,160 @@ $
 	uuuuuu
 "w	CHAR	0
 	wwwwwwwwwwwww
-""-	CHAR	0
-	 
+"-	CHAR	0
+	*REF*: 
 
 # File marks:
 'A  94  20  ~/Documents/#docs/SE/CODE/IDE/Vim/vDdm/Ranges.md
 'B  3  61  ~/Documents/#docs/SE/CODE/IDE/Vim/vDdm/TEXT OBJECTS.md
-'0  153  0  ~/.bashrc
-'1  1  0  ~/Documents/SEM/@XTNDED programme/Computing Fundamentals/Lectures/Week 8.ppt
-'2  1  0  ~/Documents/SEM/@XTNDED programme/Computing Fundamentals/Lectures/Week 3 - Lecture.ppt
-'3  1  0  ~/Documents/SEM/@XTNDED programme/MA0001NI Foundation Mathematics/Week 6/Lecture note week 6.ppt
-'4  1  0  ~/Documents/SEM/@XTNDED programme/MA0001NI Foundation Mathematics/Week 4/lecture notes week 4.ppt
-'5  1  0  ~/Documents/SEM/@XTNDED programme/MA0001NI Foundation Mathematics/Week 3/lecture note week 3.ppt
-'6  23  0  ~/Documents/SEM/2nd/Probelm Solving for IT(CC1002NI)/LondonMet/L9_Company Budget-solution.xlsm.xlsm
-'7  11  53  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
-'8  26  5  ~/Documents/#docs/SE/SE.PhysicalComputing/TOOLs.md
-'9  12  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/DotFiles.md
+'0  1  0  ~/dotfiles/abc.html
+'1  28  2  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+'2  1  0  ~/Documents/#docs/SE/seDdm/index.md
+'3  27  0  ~/.profile
+'4  10  27  ~/.config/nitrogen/nitrogen.cfg
+'5  1  0  ~/.config/nitrogen/nitrogen.cfg
+'6  10  0  ~/dotfiles/nitrogen/.config/nitrogen/nitrogen.cfg
+'7  11  2  ~/.config/nitrogen/nitrogen.cfg
+'8  1  0  ~/dotfiles/nitrogen/.config/nitrogen/nitrogen.cfg
+'9  1  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/nitrogen/nitrogen.md
 
 # Jumplist (newest first):
--'  153  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  1  0  ~/Documents/SEM/@XTNDED programme/Computing Fundamentals/Lectures/Week 8.ppt
--'  1  0  ~/Documents/SEM/@XTNDED programme/Computing Fundamentals/Lectures/Week 3 - Lecture.ppt
--'  1  0  ~/Documents/SEM/@XTNDED programme/MA0001NI Foundation Mathematics/Week 6/Lecture note week 6.ppt
--'  1  0  ~/Documents/SEM/@XTNDED programme/MA0001NI Foundation Mathematics/Week 4/lecture notes week 4.ppt
--'  1  0  ~/Documents/SEM/@XTNDED programme/MA0001NI Foundation Mathematics/Week 3/lecture note week 3.ppt
--'  23  0  ~/Documents/SEM/2nd/Probelm Solving for IT(CC1002NI)/LondonMet/L9_Company Budget-solution.xlsm.xlsm
--'  11  53  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  1  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  5  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  12  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  15  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  17  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  19  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  21  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  23  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  25  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  27  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  29  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  33  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  35  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  37  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  39  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  41  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  43  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  45  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  47  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  49  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  70  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  92  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  63  48  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  28  23  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  20  42  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  89  3  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/netDdm/index.md
--'  32  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/netDdm/index.md
--'  1  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/netDdm/index.md
--'  40  3  ~/Documents/#docs/SE/seDdm/index.md
--'  31  20  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/netDdm/index.md
--'  11  53  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  1  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  5  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  12  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  15  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  17  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  19  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  21  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  23  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  25  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  27  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  29  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  33  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  35  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  37  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  39  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  41  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  43  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  45  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  47  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  49  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  70  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  92  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  63  48  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  28  23  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  20  42  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  89  3  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/netDdm/index.md
--'  32  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/netDdm/index.md
--'  1  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/netDdm/index.md
--'  40  3  ~/Documents/#docs/SE/seDdm/index.md
--'  31  20  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/netDdm/index.md
--'  23  0  ~/Documents/SEM/2nd/Probelm Solving for IT(CC1002NI)/LondonMet/L9_Company Budget-solution.xlsm.xlsm
--'  11  53  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  1  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  5  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  12  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  15  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  17  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  19  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  21  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  23  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  25  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  27  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  29  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  33  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  35  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  37  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  39  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  41  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  43  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  45  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  47  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  49  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  70  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  92  0  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  63  48  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  28  23  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
--'  20  42  ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
+-'  1  0  ~/dotfiles/abc.html
+-'  28  2  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  1  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  18  2  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  1  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/xmonad/xmonad.md
+-'  17  2  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  15  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  25  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  27  2  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  43  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/xmonad/xmonad.md
+-'  4  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/xmonad/xmonad.md
+-'  12  6  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  10  28  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  8  21  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  7  36  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  6  25  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  27  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  29  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  31  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  36  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  44  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  47  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  53  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  58  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  10  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  1  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  32  2  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/tty|GUI.md
+-'  34  2  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/tty|GUI.md
+-'  9  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/TERMINAL EMULATORs.md
+-'  10  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/TERMINAL EMULATORs.md
+-'  6  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/TERMINAL EMULATORs.md
+-'  58  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/TERMINAL EMULATORs.md
+-'  1  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/TERMINAL EMULATORs.md
+-'  54  7  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  25  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  20  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  52  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  35  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/tty|GUI.md
+-'  33  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/tty|GUI.md
+-'  31  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/tty|GUI.md
+-'  29  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/tty|GUI.md
+-'  2  2  ~/Documents/#docs/SE/os.UNIX|Linux/os.VoidLinux/VoidLinux.md
+-'  1  0  ~/Documents/#docs/SE/os.UNIX|Linux/os.VoidLinux/VoidLinux.md
+-'  3  2  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/OS FLAVOR: Void of any proprietary software.md
+-'  1  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/OS FLAVOR: Void of any proprietary software.md
+-'  53  14  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  19  1  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  14  2  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  12  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  20  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  24  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  31  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  10  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  8  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  1  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  4  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  7  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  33  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  35  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  39  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  44  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  48  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  50  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  52  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  54  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  56  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  58  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  60  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  62  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  32  0  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  34  2  ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+-'  1  0  ~/Documents/#docs/SE/os.UNIX|Linux/os.NixOS/NixOS.md
+-'  28  2  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  1  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  18  2  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  1  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/xmonad/xmonad.md
+-'  17  2  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  15  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  25  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  27  2  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  43  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/xmonad/xmonad.md
+-'  4  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/xmonad/xmonad.md
+-'  12  6  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  10  28  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  8  21  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  7  36  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  6  25  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+-'  27  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  29  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  31  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  36  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  44  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  47  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  53  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  58  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+-'  10  0  ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
 
 # History of marks within files (newest to oldest):
 
-> ~/.bashrc
-	"	153	0
-
-> ~/Documents/SEM/@XTNDED programme/Computing Fundamentals/Lectures/Week 8.ppt
+> ~/dotfiles/abc.html
 	"	1	0
-
-> ~/Documents/SEM/@XTNDED programme/Computing Fundamentals/Lectures/Week 3 - Lecture.ppt
-	"	1	0
-
-> ~/Documents/SEM/@XTNDED programme/MA0001NI Foundation Mathematics/Week 6/Lecture note week 6.ppt
-	"	1	0
-
-> ~/Documents/SEM/@XTNDED programme/MA0001NI Foundation Mathematics/Week 4/lecture notes week 4.ppt
-	"	1	0
-
-> ~/Documents/SEM/@XTNDED programme/MA0001NI Foundation Mathematics/Week 3/lecture note week 3.ppt
-	"	1	0
-
-> ~/Documents/SEM/2nd/Probelm Solving for IT(CC1002NI)/LondonMet/L9_Company Budget-solution.xlsm.xlsm
-	"	23	0
 	.	1	0
+	+	1	0
+	+	1	0
 	+	1	0
 
 > ~/Documents/#docs/SE/seDdm/index.md
-	"	19	2
-	.	19	0
+	"	23	2
+	.	1	0
+	+	10	0
+	+	23	0
+	+	1	0
+	+	8	0
+	+	10	0
+	+	66	42
+	+	9	0
+	+	10	0
+	+	10	0
+	+	9	0
+	+	4	0
+	+	5	0
 	+	6	0
-	+	19	0
+	+	5	2
+	+	2	0
+	+	2	6
+	+	2	12
+	+	2	0
+	+	2	0
+	+	2	32
+	+	2	0
+	+	1	0
 
 > ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/index.md
-	"	64	3
-	^	29	0
-	.	29	0
-	+	30	0
+	"	74	3
+	^	1	9
+	.	1	0
 	+	30	8
 	+	30	8
 	+	30	8
@@ -1666,12 +1657,13 @@ $
 	+	3	15
 	+	72	0
 	+	29	0
+	+	1	0
 
 > ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/index.md
-	"	7	3
-	^	7	22
-	.	7	30
-	+	81	0
+	"	52	7
+	^	86	24
+	.	86	23
+	+	89	0
 	+	36	0
 	+	33	16
 	+	34	0
@@ -1683,1266 +1675,984 @@ $
 	+	21	0
 	+	6	0
 	+	7	30
+	+	1	0
+	+	17	0
+	+	79	0
+	+	80	0
+	+	82	1
+	+	70	0
+	+	71	0
+	+	70	0
+	+	71	0
+	+	82	8
+	+	83	9
+	+	84	13
+	+	85	12
+	+	86	12
+	+	81	10
+	+	82	4
+	+	83	4
+	+	82	23
+	+	83	25
+	+	85	23
+	+	86	23
 	e	1	0
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/DotFiles.md
-	"	3	2
-	^	2	0
-	.	2	0
-	+	3	129
-	+	3	77
-	+	3	0
-	+	3	75
-	+	3	28
-	+	3	0
-	+	3	39
-	+	3	11
-	+	3	0
-	+	3	74
-	+	3	0
-	+	3	22
-	+	3	34
-	+	3	0
-	+	3	44
-	+	3	21
-	+	3	89
-	+	3	24
-	+	3	86
-	+	3	12
-	+	6	0
-	+	3	14
-	+	3	14
-	+	3	0
-	+	3	0
-	+	3	0
-	+	3	0
-	+	3	0
-	+	3	0
-	+	3	0
-	+	3	77
-	+	3	0
-	+	3	76
-	+	3	0
-	+	6	0
-	+	6	4
-	+	6	8
-	+	6	8
-	+	6	8
-	+	6	8
-	+	6	8
-	+	6	0
-	+	3	0
-	+	3	0
-	+	3	4
-	+	3	8
-	+	3	17
-	+	3	79
-	+	6	0
-	+	7	2
-	+	12	0
-	+	8	0
-	+	3	0
-	+	4	0
-	+	3	0
-	+	21	0
-	+	20	114
-	+	3	95
-	+	3	0
-	+	3	0
-	+	3	0
-	+	3	0
-	+	3	41
-	+	3	0
-	+	3	41
-	+	3	0
-	+	3	0
-	+	3	33
-	+	3	0
-	+	3	33
-	+	3	0
-	+	4	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	4
-	+	26	4
-	+	26	4
-	+	26	4
-	+	26	4
-	+	26	4
-	+	26	4
-	+	26	4
-	+	26	81
-	+	26	6
-	+	26	24
-	+	26	12
-	+	21	0
-	+	15	0
-	+	21	0
-	+	17	0
-	+	26	2
-	+	26	0
-	+	10	0
-	+	23	0
-	+	24	0
-	+	25	0
-	+	2	0
-
-> ~/Documents/#docs/SE/seDdm/Software Angineeuring JARGONs|Terminologies.md
-	"	80	2
-	^	34	14
-	.	34	11
-	+	18	19
-	+	19	44
-	+	20	50
-	+	21	21
-	+	21	8
-	+	20	8
-	+	19	8
-	+	21	49
-	+	7	0
-	+	6	0
-	+	21	0
-	+	21	99
-	+	21	13
-	+	21	18
-	+	21	0
-	+	21	52
-	+	21	0
-	+	21	0
-	+	29	0
-	+	43	0
-	+	46	118
-	+	44	32
-	+	41	0
-	+	43	0
-	+	41	56
-	+	42	52
-	+	47	0
-	+	48	8
-	+	50	17
-	+	35	0
-	+	36	0
-	+	37	0
-	+	31	0
-	+	30	0
-	+	33	23
-	+	34	11
-
-> ~/Documents/#docs/SE/seDdm/Software Architecture.md
-	"	3	10
-	^	19	14
-	.	19	31
-	+	17	0
-	+	18	34
-	+	19	31
-
-> ~/Documents/#docs/SE/seDdm/Micro-services Architecture.md
-	"	18	0
-	.	17	85
-	+	16	0
-	+	17	85
-
-> ~/Documents/#docs/SE/SE.DBMS/dbmsDdm/index.md
-	"	56	3
-	^	18	16
-	.	16	0
-	+	63	0
-	+	64	0
-	+	65	11
-	+	71	15
-	+	72	37
-	+	66	30
-	+	72	0
-	+	72	0
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/tty|GUI.md
+	"	32	2
+	^	83	14
+	.	83	80
+	+	67	11
 	+	67	0
-	+	68	49
-	+	69	79
-	+	70	43
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	13	0
-	+	15	14
-	+	16	0
-	+	17	0
-	+	17	0
-	+	15	33
-	+	17	0
-	+	22	0
-	+	21	0
-	+	18	15
-	+	21	27
-	+	16	0
-
-> /usr/share/vim/vim74/doc/help.txt
-	"	20	8
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/netDdm/index.md
-	"	89	3
-	^	31	11
-	.	31	32
-	+	30	0
-	+	32	0
-	+	31	32
-
-> ~/Documents/#docs/SE/CODE/codeDdm/index.md
-	"	1	0
-	^	9	143
-	.	9	143
-	+	9	107
-	+	9	0
-	+	9	143
-
-> ~/Documents/#docs/SE/seDdm/Document Generation, Maintenance And Automation.md
-	"	17	0
-
-> ~/Documents/#docs/SE/seDdm/Open Source Economy.md
-	"	1	0
-
-> ~/Documents/#docs/SE/seDdm/Digital Marketing.md
-	"	1	0
-
-> ~/Documents/#docs/SE/seDdm/Cloud Computing.md
-	"	2	3
-
-> ~/Documents/#docs/SE/SearchEngine/SearchEngine.md
-	"	1	0
-
-> ~/Documents/#docs/SE/SE.DBMS/PostgreSQL/PostgreSQL.md
-	"	24	0
-	^	25	22
-	.	25	24
-	+	24	0
-	+	26	0
-	+	25	11
-	+	26	0
-	+	26	0
-	+	25	24
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/tools.md
-	"	11	53
-
-> ~/Documents/#docs/SE/se.internet_cybersecurity/index.md
-	"	18	2
-	.	15	0
-	+	15	0
-
-> ~/Documents/#docs/SE/se.internet_cybersecurity/tools/tools.md
-	"	43	4
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/secure-protocols/secure-protocols.md
-	"	16	2
-	.	32	0
-	+	17	0
-	+	34	0
-	+	34	0
-	+	32	0
-	+	32	0
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/secure-protocols/SSL|TLS/SSL|TLS.md
-	"	16	0
-	^	18	14
-	.	18	11
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	15	0
-	+	17	16
-	+	18	0
-	+	19	0
-	+	18	11
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/secure-protocols/SSL|TLS/LIBRARIES.md
-	"	1	0
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/Network-Protocols/Network-Protocols.md
-	"	3	3
-	^	2	18
-	.	2	17
-	+	2	17
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/HW TOOLs/HW TOOLs.md
-	"	1	0
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/Network-Protocols/TCP/TCP.md
-	"	9	87
-	^	9	14
-	.	9	16
-	+	10	0
-	+	8	0
-	+	8	0
-	+	9	16
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/netDdm/MAC Address.md
-	"	1	0
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/IP-address|Subnets/IP-address|Subnets.md
-	"	1	0
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/Network-Protocols/HTTP|2.md
-	"	1	0
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/Network-Protocols/HTTP|2/HTTP|2.md
-	"	3	0
-	^	4	18
-	.	4	17
-	+	1	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	3	0
-	+	2	0
-	+	5	19
-	+	4	17
-
-> ~/Documents/#docs/SE/seDdm/System Design & Engineering.md
-	"	28	0
-	^	29	25
-	.	29	27
-	+	28	0
-	+	29	27
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/secure-protocols/Proxy/Proxy.md
-	"	39	0
-	^	44	14
-	.	45	30
-	+	40	0
-	+	47	0
-	+	42	0
-	+	41	0
-	+	43	20
-	+	44	13
-	+	45	0
-	+	46	0
-	+	44	20
-	+	45	30
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/secure-protocols/SOCKS/SOCKS.md
-	"	1	0
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/tools/wireshark/wireshark.md
-	"	29	10
-	^	29	112
-	.	29	39
-	+	30	0
-	+	28	0
-	+	29	39
-
-> ~/Documents/#docs/SE/HACK/ReverseEngineering/ReverseEngineering.md
-	"	18	10
-	.	18	39
-	+	17	0
-	+	18	39
-
-> ~/Documents/#docs/SE/SE.DesignPatterns/SE.Design Pattern.md
-	"	19	30
-	.	19	11
-	+	18	0
-	+	19	11
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/os.Theory/Virtualization/index.md
-	"	47	2
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/os.Theory/Virtualization/CLOUD Solutions.md
-	"	5	4
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/os.Theory/Virtualization/docker/index.md
-	"	7	4
-	^	10	17
-	.	7	4
-	+	11	0
-	+	9	0
-	+	10	19
-	+	7	0
-	+	8	8
-	+	7	4
-
-> ~/Documents/#docs/SE/seDdm/Distributed Computing | HPC - High Performance Computing.md
-	"	33	29
-	^	33	30
-	.	33	29
-	+	32	0
-	+	33	29
-
-> ~/Documents/#docs/SE/seDdm/Software Performance.md
-	"	13	0
-	^	12	17
-	.	16	0
-	+	12	0
-	+	16	0
-	+	17	0
-	+	12	0
-	+	13	0
-	+	15	0
-	+	16	0
-
-> ~/Documents/#docs/SE/seDdm/Protocols Racket.md
-	"	1	0
-
-> ~/Documents/#docs/SE/seDdm/WebSocket.md
-	"	14	14
-	^	14	22
-	.	14	14
-	+	12	0
-	+	10	0
-	+	11	0
-	+	14	14
-
-> ~/Documents/#docs/SE/seDdm/gRPC.md
-	"	1	0
-
-> ~/Documents/#docs/SE/SE.Communication&NetworkingTheory/Networking Servers/Networking Servers.md
-	"	1	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/os.Theory/SERVER/SERVER.md
-	"	38	3
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/os.Theory/SERVER/Nginx/Nginx.md
-	"	1	0
-	^	13	16
-	.	13	15
-	+	12	21
-	+	13	15
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/SHELL.md
-	"	1	0
-	^	26	14
-	.	14	0
-	+	11	0
-	+	12	0
-	+	2	80
-	+	2	80
-	+	3	78
-	+	4	73
-	+	5	22
-	+	5	23
-	+	11	0
-	+	5	23
-	+	6	40
-	+	7	80
-	+	8	21
-	+	9	0
-	+	8	4
-	+	9	19
-	+	12	0
-	+	8	21
-	+	9	0
-	+	8	36
-	+	10	21
-	+	24	0
-	+	25	0
-	+	25	0
-	+	26	13
-	+	14	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/os.Theory/SHELLs/Bash/index.md
-	"	74	2
-	.	72	0
-	+	84	0
-	+	85	0
-	+	85	2
-	+	85	9
-	+	84	0
-	+	85	0
-	+	85	0
-	+	74	0
-	+	72	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/os.Theory/SHELLs/Bash/.bashrc.md
-	"	1	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/os.Theory/SHELLs/Bash/.bash_profile.md
-	"	37	0
-	^	12	19
-	.	12	18
-	+	10	6
-	+	11	10
-	+	10	78
-	+	9	80
-	+	12	15
-	+	13	0
-	+	12	15
-	+	11	53
-	+	6	0
-	+	9	0
-	+	8	0
-	+	37	0
-	+	9	72
-	+	12	18
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/os.Theory/SHELLs/Bash/.bash_logout.md
-	"	1	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/DotFiles with Git-bare-repo.md
-	"	1	0
-	^	3	71
-	.	3	70
-	+	1	0
-	+	2	0
-	+	44	0
-	+	45	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	3	9
-	+	4	0
-	+	3	70
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/What's a dotfile?.md
-	"	2	0
-	^	2	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/What can you do with dot files?.md
-	"	1	0
-	^	43	26
-	.	43	25
-	+	1	0
-	+	2	0
-	+	2	0
-	+	4	0
-	+	25	0
-	+	26	2
-	+	28	0
-	+	27	22
-	+	47	0
-	+	47	0
-	+	47	2
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	0
-	+	47	45
-	+	47	1
-	+	47	19
-	+	47	0
-	+	47	28
-	+	47	0
-	+	47	0
-	+	29	0
-	+	30	0
-	+	42	0
-	+	43	25
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/stow/stow.md
-	"	34	0
-	.	60	0
-	+	66	66
+	+	67	21
 	+	67	0
-	+	18	0
-	+	19	0
-	+	20	2
-	+	22	0
-	+	21	27
-	+	10	0
-	+	9	0
-	+	10	31
-	+	27	0
-	+	28	0
-	+	29	2
-	+	50	0
-	+	32	88
-	+	49	9
-	+	46	0
-	+	45	0
-	+	29	7
-	+	43	0
-	+	39	0
-	+	38	0
-	+	39	82
-	+	49	10
-	+	43	12
-	+	48	0
-	+	46	0
-	+	29	0
-	+	31	0
-	+	37	0
-	+	42	0
-	+	44	0
-	+	39	0
-	+	29	0
-	+	38	0
-	+	45	0
-	+	39	24
+	+	67	13
+	+	67	11
+	+	67	0
+	+	67	0
+	+	67	18
+	+	67	0
+	+	67	0
+	+	67	0
+	+	67	0
+	+	67	0
+	+	67	19
+	+	67	17
+	+	67	0
+	+	67	0
+	+	67	0
+	+	67	16
+	+	67	0
+	+	67	13
+	+	67	14
+	+	67	14
+	+	67	12
+	+	67	13
+	+	67	22
+	+	67	0
+	+	67	0
+	+	67	0
+	+	67	2
 	+	41	0
-	+	39	28
-	+	29	18
-	+	46	22
-	+	11	0
-	+	11	0
-	+	10	43
-	+	11	78
-	+	12	79
-	+	13	78
-	+	14	22
-	+	15	0
-	+	15	26
-	+	16	0
-	+	15	26
+	+	67	0
+	+	43	7
+	+	44	7
+	+	45	0
+	+	46	0
+	+	48	1
 	+	51	0
-	+	52	7
-	+	55	27
-	+	33	0
-	+	35	48
-	+	36	74
-	+	37	22
-	+	37	0
-	+	35	17
-	+	37	0
-	+	34	19
-	+	35	19
-	+	36	19
-	+	35	19
-	+	34	21
-	+	35	21
-	+	36	21
-	+	37	0
-	+	52	39
 	+	55	0
-	+	59	0
-	+	55	84
-	+	58	66
-	+	57	0
-	+	56	0
-	+	57	9
-	+	30	4
-	+	40	0
+	+	61	0
+	+	52	13
+	+	52	0
+	+	54	0
+	+	56	21
+	+	62	12
+	+	67	0
+	+	67	0
+	+	65	6
+	+	59	9
+	+	60	5
+	+	54	12
+	+	49	6
+	+	50	6
+	+	42	82
 	+	47	0
 	+	53	0
-	+	46	11
-	+	39	34
-	+	11	15
-	+	12	9
-	+	11	83
-	+	13	79
-	+	14	6
-	+	66	116
-	+	4	113
-	+	68	0
-	+	63	24
-	+	64	8
-	+	63	24
-	+	60	0
-	+	60	0
-	+	60	0
-	+	23	0
-	+	60	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Programming Tools.md
-	"	1	0
-	^	20	14
-	.	21	0
-	+	33	0
-	+	36	0
-	+	4	13
-	+	5	13
-	+	3	1
-	+	2	0
-	+	21	0
-	+	20	13
-	+	21	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/PRELIMINARIES.md
-	"	1	0
-	.	26	0
-	+	1	0
-	+	21	0
-	+	12	0
-	+	21	0
-	+	21	0
-	+	27	0
-	+	29	0
-	+	13	0
-	+	21	0
-	+	15	0
-	+	21	0
-	+	26	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/UNIX|GNU Linux Surviving Tools.md
-	"	1	0
-	^	45	14
-	.	242	0
-	+	45	13
-	+	242	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Device Manager.md
-	"	1	0
-	^	13	29
-	.	13	28
-	+	36	6
-	+	36	6
-	+	36	6
-	+	16	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	20	0
-	+	22	0
-	+	21	0
-	+	22	1
-	+	24	0
-	+	25	0
-	+	31	1
-	+	32	0
-	+	31	7
-	+	36	6
-	+	36	0
-	+	37	0
-	+	44	0
-	+	37	1
-	+	37	4
-	+	37	19
-	+	37	8
-	+	56	0
-	+	20	23
-	+	20	0
-	+	20	0
-	+	20	4
-	+	20	0
-	+	20	4
-	+	20	23
-	+	20	0
-	+	5	0
-	+	10	23
-	+	56	0
 	+	57	0
-	+	56	0
-	+	38	0
-	+	38	0
+	+	63	0
+	+	19	0
+	+	19	0
+	+	19	0
+	+	19	0
+	+	19	0
+	+	43	15
+	+	67	0
+	+	67	0
+	+	67	0
+	+	67	0
+	+	23	0
+	+	25	0
+	+	20	0
+	+	3	0
+	+	4	0
+	+	75	0
+	+	74	0
+	+	27	0
+	+	40	0
+	+	35	0
+	+	36	0
+	+	38	64
 	+	37	0
-	+	37	0
-	+	38	16
-	+	37	0
-	+	26	0
-	+	28	0
-	+	29	4
-	+	38	0
-	+	6	0
+	+	40	2
+	+	39	38
+	+	40	0
+	+	68	0
+	+	66	0
+	+	27	0
+	+	31	0
+	+	75	0
+	+	73	0
+	+	4	0
+	+	18	0
+	+	2	0
+	+	78	0
+	+	84	15
+	+	85	8
+	+	83	0
+	+	84	0
+	+	83	80
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Window Manager.md
+	"	28	2
+	^	54	8
+	.	57	0
+	+	30	0
+	+	31	0
+	+	44	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	11
+	+	44	0
+	+	2	25
+	+	4	23
+	+	4	37
+	+	4	42
+	+	5	15
+	+	5	38
+	+	5	50
+	+	6	17
+	+	6	73
+	+	7	16
+	+	7	26
+	+	7	15
+	+	8	20
+	+	8	44
+	+	9	43
+	+	8	20
+	+	8	20
 	+	8	0
-	+	7	21
-	+	11	17
-	+	13	21
-	+	12	18
-	+	13	28
+	+	7	18
+	+	7	0
+	+	6	18
+	+	5	33
+	+	5	33
+	+	6	0
+	+	5	33
+	+	4	28
+	+	4	28
+	+	4	32
+	+	2	0
+	+	3	4
+	+	6	7
+	+	7	6
+	+	8	6
+	+	9	6
+	+	4	6
+	+	5	6
+	+	4	24
+	+	5	47
+	+	6	19
+	+	7	18
+	+	8	21
+	+	9	13
+	+	5	43
+	+	28	2
+	+	30	0
+	+	30	0
+	+	27	0
+	+	59	16
+	+	59	0
+	+	30	0
+	+	10	0
+	+	47	0
+	+	44	0
+	+	31	0
+	+	29	0
+	+	25	0
+	+	48	0
+	+	53	0
+	+	58	0
+	+	16	0
+	+	11	0
+	+	20	0
+	+	16	0
+	+	18	0
+	+	19	4
+	+	17	6
+	+	13	12
+	+	15	11
+	+	14	59
+	+	16	36
+	+	15	12
+	+	16	0
+	+	12	15
+	+	4	0
+	+	53	0
+	+	2	0
+	+	2	0
+	+	56	0
+	+	55	9
+	+	54	0
+	+	57	0
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/PromptStatement|PS1|PS2|PS3|PS4/PromptStatement|PS1|PS2|PS3|PS4.md
-	"	26	2
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/PromptStatement|PS1|PS2|PS3|PS4/PS1.md
-	"	42	0
-	.	43	0
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/xmonad/xmonad.md
+	"	1	0
+	^	33	14
+	.	33	52
+	+	21	26
+	+	37	22
+	+	38	33
+	+	39	41
+	+	40	0
 	+	42	0
-	+	43	0
+	+	40	23
+	+	41	11
+	+	36	0
+	+	34	50
+	+	33	52
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/PromptStatement|PS1|PS2|PS3|PS4/SPECIAL PROMPT VARs.md
-	"	64	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/PromptStatement|PS1|PS2|PS3|PS4/COLOR-codes | NON-PRINTING CHARACTERs.md
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Taffybar/Taffybar.md
 	"	1	0
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/PromptStatement|PS1|PS2|PS3|PS4/PROMPT_COMMAND.md
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/dwm/dwm.md
+	"	1	0
+	.	39	0
+	+	25	0
+	+	32	0
+	+	25	4
+	+	21	13
+	+	25	20
+	+	32	0
+	+	24	4
+	+	25	8
+	+	32	1
+	+	25	8
+	+	32	0
+	+	26	26
+	+	24	25
+	+	26	19
+	+	27	8
+	+	25	0
+	+	22	0
+	+	27	32
+	+	32	26
+	+	26	24
+	+	32	0
+	+	23	0
+	+	28	48
+	+	21	0
+	+	22	0
+	+	24	0
+	+	23	0
+	+	24	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	27	4
+	+	25	4
+	+	29	0
+	+	30	0
+	+	31	0
+	+	37	64
+	+	39	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/dmenu/dmenu.md
 	"	1	0
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/CONTENTs of .config files.md
-	"	12	0
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Monitor Resolution.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/BYOBU/BYOBU.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/TERMINAL EMULATORs.md
+	"	9	0
+	^	13	26
+	.	10	0
+	+	59	0
+	+	1	41
+	+	10	0
+	+	12	0
+	+	15	0
+	+	10	0
+	+	16	0
+	+	18	2
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	4
+	+	29	4
+	+	30	4
+	+	31	4
+	+	32	4
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	11	27
+	+	12	4
+	+	13	25
+	+	6	0
+	+	10	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/xdg-open.md
+	"	2	0
+	^	16	29
+	.	17	8
+	+	14	0
+	+	13	0
+	+	14	23
+	+	29	0
+	+	17	24
+	+	16	29
+	+	17	8
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/nautilus.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/nautilus/nautilus.md
+	"	1	1
+	^	23	27
+	.	23	26
+	+	1	0
+	+	2	0
+	+	20	0
+	+	25	0
+	+	21	2
+	+	22	45
+	+	23	78
+	+	24	20
+	+	23	26
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Wallpaper.md
+	"	7	3
 	^	16	0
 	.	2	0
 	+	1	0
-	+	2	0
-	+	14	0
+	+	3	0
+	+	3	0
 	+	15	0
 	+	16	0
 	+	2	0
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/chsh.md
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/feh/feh.md
+	"	141	10
+	^	143	106
+	.	143	105
+	+	92	0
+	+	96	0
+	+	101	0
+	+	97	15
+	+	98	35
+	+	38	0
+	+	39	0
+	+	41	16
+	+	103	0
+	+	104	0
+	+	108	2
+	+	110	0
+	+	109	8
+	+	104	0
+	+	107	63
+	+	111	0
+	+	112	8
+	+	106	17
+	+	114	16
+	+	118	7
+	+	111	0
+	+	111	22
+	+	111	16
+	+	111	7
+	+	111	35
+	+	40	0
+	+	105	0
+	+	111	0
+	+	113	0
+	+	112	0
+	+	116	0
+	+	115	73
+	+	115	56
+	+	111	0
+	+	115	63
+	+	111	0
+	+	120	0
+	+	124	67
+	+	41	23
+	+	43	0
+	+	59	0
+	+	50	2
+	+	58	0
+	+	52	35
+	+	53	0
+	+	58	0
+	+	53	15
+	+	49	14
+	+	51	0
+	+	49	55
+	+	50	18
+	+	53	14
+	+	129	0
+	+	130	0
+	+	16	0
+	+	25	0
+	+	17	2
+	+	19	0
+	+	18	7
+	+	20	0
+	+	21	13
+	+	23	7
+	+	130	0
+	+	131	16
+	+	137	0
+	+	133	2
+	+	136	0
+	+	134	8
+	+	136	0
+	+	135	31
+	+	132	0
+	+	131	55
+	+	54	16
+	+	55	13
+	+	56	14
+	+	50	0
+	+	44	0
+	+	49	0
+	+	44	2
+	+	46	2
+	+	48	0
+	+	45	63
+	+	49	6
+	+	50	0
+	+	51	60
+	+	57	0
+	+	5	0
+	+	6	0
+	+	11	0
+	+	10	2
+	+	11	0
+	+	14	0
+	+	11	1
+	+	12	1
+	+	12	2
+	+	14	0
+	+	13	67
+	+	136	0
+	+	7	0
+	+	143	105
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Qtile/Qtile.md
 	"	1	0
-	^	8	31
-	.	8	29
-	+	8	29
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/bspwm/bspwm.md
+	"	14	9
+	^	44	14
+	.	44	68
+	+	13	0
+	+	15	30
+	+	16	14
+	+	13	6
+	+	16	83
+	+	17	63
+	+	18	37
+	+	19	41
+	+	20	37
+	+	16	4
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	16	0
+	+	14	0
+	+	40	0
+	+	43	0
+	+	42	16
+	+	41	0
+	+	42	4
+	+	41	9
+	+	44	68
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/i3/i3.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/sway/sway.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Herbstluftwm/Herbstluftwm.md
+	"	1	0
+	.	10	8
+	+	36	0
+	+	9	5
+	+	10	8
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/TTY/TTY.md
+	"	67	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Tiling WM.md
+	"	1	0
+	^	35	0
+	.	6	0
+	+	1	0
+	+	2	0
+	+	34	0
+	+	35	0
+	+	2	0
+	+	15	0
+	+	3	0
+	+	6	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/bspwm/Description.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/bspwm/Configuration.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/bspwm/Monitors, desktops and windows.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/bspwm/Insertion modes.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/bspwm/Manual mode.md
+	"	42	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/bspwm/Automatic mode.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/bspwm/Longest side scheme.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/bspwm/Alternate scheme.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/bspwm/Spiral scheme.md
+	"	40	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/bspwm/Supported protocols and standards.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Polybar/Polybar.md
+	"	1	0
+
+> ~/Documents/#docs/SE/CODE/codeDdm/index.md
+	"	10	4
+	^	14	0
+	.	14	0
+	+	9	107
+	+	9	0
+	+	9	143
+	+	11	113
+	+	13	0
+	+	11	0
+	+	13	0
+	+	12	0
+	+	54	34
+	+	116	14
+	+	117	59
+	+	118	15
+	+	119	13
+	+	122	0
+	+	122	0
+	+	120	10
+	+	122	0
+	+	121	25
+	+	122	21
+	+	123	17
+	+	1	0
+	+	14	0
+	+	14	0
+
+> ~/Documents/#docs/SE/CODE/IDE/Vim/vDdm/index.md
+	"	58	3
+
+> ~/Documents/#docs/SE/CODE/IDE/Vim/vDdm/Plugin.md
+	"	35	7
+
+> ~/Documents/#docs/SE/CODE/IDE/Vim/vDdm/Plugins/vimwiki/index.md
+	"	6	2
+
+> ~/Documents/#docs/SE/CODE/IDE/Vim/vDdm/Plugins/vimwiki/INSTALLATIONI/NSTALLATION.md
+	"	55	0
+
+> ~/Documents/#docs/SE/CODE/IDE/Vim/vDdm/Plugins/Ctrlp/Ctrlp.md
+	"	54	0
+	^	68	0
+	.	52	0
+	+	57	0
+	+	45	0
+	+	49	0
+	+	48	0
+	+	49	0
+	+	51	0
+	+	49	0
+	+	49	0
+	+	49	0
+	+	50	0
+	+	49	0
+	+	49	0
+	+	49	0
+	+	49	0
+	+	49	0
+	+	46	13
+	+	47	20
+	+	49	0
+	+	47	20
+	+	49	0
+	+	69	0
+	+	67	0
+	+	68	0
+	+	52	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/ranger/ranger.md
+	"	15	2
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/ranger/CONFIG.md
+	"	1	0
+
+> ~/Documents/#docs/SE/CODE/IDE/Vim/vDdm/Plugins/NERDTree/NERDTree.md
+	"	7	2
+
+> ~/Documents/#docs/SE/CODE/IDE/Vim/vDdm/vim-powerline.md
+	"	11	0
+	^	9	19
+	.	14	0
+	+	16	8
+	+	15	0
+	+	6	0
+	+	6	0
+	+	15	0
+	+	16	0
+	+	18	0
+	+	19	0
+	+	7	0
+	+	14	0
+	+	11	0
+	+	10	2
+	+	13	0
+	+	12	0
+	+	11	0
+	+	11	0
+	+	11	0
+	+	11	0
+	+	8	0
+	+	11	0
+	+	10	0
+	+	9	21
+	+	10	0
+	+	9	59
+	+	10	0
+	+	14	0
+
+> ~/Documents/#docs/SE/CODE/IDE/Vim/vDdm/PLUGIN: PYTHON.md
+	"	1	0
+	.	30	0
+	+	30	16
+	+	30	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/OS Flavours.md
+	"	10	2
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/UNIX.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/GNU|Linux.md
+	"	53	14
+	^	19	2
+	.	19	2
+	+	41	13
+	+	32	0
+	+	5	0
+	+	8	0
+	+	16	80
+	+	17	0
+	+	18	80
+	+	19	2
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/Custom Linux Distros.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/IoT-EmbeddedSystemOS.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/RealTime Computing.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/BSD.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/OS FLAVOR: Minimalist.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/OS FLAVOR: Void of any proprietary software.md
+	"	3	2
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/OS FLAVOR: Cloud Infrastructure.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/OS FLAVOR: SECURITY.md
+	"	39	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/OS FLAVOR: Digital Forensics.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/osDdm/OS FLAVOR: Automobiles.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/os.NixOS/NixOS.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/os.VoidLinux/VoidLinux.md
+	"	2	2
+
+> ~/dotfiles/install_apps.sh
+	"	3	36
+	^	3	37
+	.	3	36
+	+	12	38
+	+	3	25
+	+	12	0
+	+	13	0
+	+	12	71
+	+	3	32
+	+	12	1
+	+	6	16
+	+	6	16
+	+	7	0
+	+	11	0
+	+	5	26
+	+	8	0
+	+	5	20
+	+	8	0
+	+	8	0
+	+	9	0
+	+	6	16
+	+	7	0
+	+	6	12
+	+	10	0
+	+	12	0
+	+	3	36
+
+> ~/.vimrc
+	"	236	19
+
+> ~/.vim/autoload/pathogen.vim
+	"	264	0
+
+> ~/dotfiles/stowrestore.sh
+	"	20	0
+	^	20	5
+	.	21	0
+	+	3	4
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	2
+	+	18	8
+	+	18	0
+	+	21	0
+	+	18	0
+	+	21	0
+	+	4	0
+	+	20	0
+	+	3	0
+	+	21	0
+	+	4	0
+	+	12	12
+	+	11	12
+	+	19	0
+	+	18	0
+	+	19	4
+	+	20	5
+	+	19	5
+	+	21	0
+	+	21	0
+
+> ~/.profile
+	"	27	0
+	^	27	1
+	.	27	0
+	+	25	0
+	+	28	0
+	+	27	0
+	+	28	0
+	+	27	0
+	+	28	0
+	+	28	0
+	+	27	0
+	+	28	0
+	+	27	0
+
+> ~/.config/nitrogen/nitrogen.cfg
+	"	10	27
+	^	10	28
+	.	10	27
+	+	10	5
+	+	11	2
+	+	10	27
+
+> ~/dotfiles/nitrogen/.config/nitrogen/nitrogen.cfg
+	"	10	0
+	^	10	26
+	.	11	0
+	+	10	25
+	+	11	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Programming Tools.md
+	"	1	0
+	^	36	36
+	.	36	35
+	+	35	0
+	+	35	0
+	+	35	0
+	+	2	13
+	+	36	0
+	+	43	0
+	+	38	10
+	+	40	5
+	+	37	73
+	+	42	37
+	+	41	48
+	+	39	12
+	+	36	35
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Package Managers.md
+	"	3	2
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/DotFiles.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/stow/stow.md
+	"	21	2
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/FOLDER HIERARCHY of a DotFile.md
+	"	10	2
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/stow/COMMANDs.md
+	"	1	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/VERSION 1.0.md
+	"	50	0
+	^	50	0
+	.	50	0
+	+	51	0
+	+	50	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/nitrogen/nitrogen.md
+	"	1	0
+	^	36	116
+	.	36	115
+	+	1	0
+	+	7	0
+	+	32	0
+	+	5	19
+	+	6	47
+	+	5	24
+	+	6	0
+	+	2	14
+	+	3	79
+	+	4	0
+	+	8	0
+	+	9	1
+	+	10	2
+	+	12	0
+	+	15	0
+	+	17	0
+	+	15	0
+	+	14	1
+	+	37	0
+	+	38	0
+	+	26	0
+	+	25	0
+	+	27	27
+	+	28	5
+	+	28	0
+	+	27	0
+	+	29	2
+	+	31	0
+	+	25	0
+	+	19	0
+	+	18	0
+	+	19	0
+	+	20	76
+	+	21	22
+	+	21	22
+	+	21	20
+	+	23	0
+	+	22	2
+	+	24	0
+	+	23	22
+	+	24	0
+	+	24	20
+	+	24	0
+	+	36	115
+
+> ~/.config/nitrogen/bg-saved.cfg
+	"	1	0
 
 > ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/VersionControlSystem.md
 	"	22	7
 
 > ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/Git.md
-	"	32	2
-	^	54	14
-	.	55	32
-	+	60	0
-	+	57	0
-	+	58	0
-	+	59	0
-	+	52	20
-	+	53	26
-	+	55	8
-	+	54	13
-	+	55	32
+	"	36	2
+
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/BASICS.md
+	"	17	2
+
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/Advanced.md
+	"	15	2
 
 > ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/Bare Git Repo.md
 	"	1	0
-	^	26	3
-	.	26	2
-	+	3	0
-	+	4	8
-	+	3	4
-	+	5	0
-	+	8	0
-	+	5	17
-	+	6	66
-	+	7	0
-	+	11	0
-	+	14	0
-	+	17	2
-	+	19	0
-	+	20	0
-	+	18	16
-	+	15	78
-	+	15	78
-	+	16	27
-	+	21	0
-	+	21	0
-	+	23	1
-	+	23	2
-	+	34	0
-	+	24	78
-	+	24	77
-	+	24	75
-	+	34	0
-	+	24	76
-	+	25	2
-	+	30	0
-	+	31	0
-	+	32	0
-	+	33	0
-	+	21	0
-	+	22	0
-	+	25	51
-	+	27	0
-	+	26	2
 
-> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/BASICS.md
-	"	1	0
-	^	28	1
-	.	26	0
-	+	7	0
-	+	6	0
-	+	6	0
-	+	9	0
-	+	7	10
-	+	10	0
-	+	11	0
-	+	12	0
-	+	11	0
-	+	8	0
-	+	21	13
-	+	19	13
-	+	21	13
-	+	34	2
-	+	33	0
-	+	16	0
-	+	39	0
-	+	44	0
-	+	47	0
-	+	33	14
-	+	44	25
-	+	47	6
-	+	43	0
-	+	46	0
-	+	40	3
-	+	51	19
-	+	60	1
-	+	61	0
-	+	51	0
-	+	63	0
-	+	57	50
-	+	70	73
-	+	64	77
-	+	69	0
-	+	75	0
-	+	82	0
-	+	91	26
-	+	33	8
-	+	84	10
-	+	27	4
-	+	24	0
-	+	25	0
-	+	22	0
-	+	23	0
-	+	30	0
-	+	29	0
-	+	28	0
-	+	28	0
-	+	28	0
-	+	26	0
-
-> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/Advanced.md
-	"	1	0
-	^	66	17
-	.	66	16
-	+	15	6
-	+	45	21
-	+	42	79
-	+	43	0
-	+	41	1
-	+	41	1
-	+	42	0
-	+	36	13
-	+	41	22
-	+	48	25
-	+	54	1
-	+	55	0
-	+	54	15
-	+	60	0
-	+	66	1
-	+	69	1
-	+	70	5
-	+	69	79
-	+	71	2
-	+	68	49
-	+	69	0
-	+	79	0
-	+	80	1
-	+	81	0
-	+	82	2
-	+	67	0
-	+	66	16
-
-> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/Git Prompt.md
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/Remote Repo.md
 	"	1	0
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/IMPORTANT LINKs.md
-	"	2	0
-	^	37	0
-	.	2	0
-	+	1	0
-	+	2	0
-	+	35	0
-	+	36	0
-	+	37	0
-	+	2	0
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/Git Stash.md
+	"	82	0
 
-> ~/Documents/#docs/SE/SE.PhysicalComputing/PhysicalComputing.md
-	"	40	2
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/MERGE.md
+	"	6	0
 
-> ~/Documents/#docs/SE/SE.PhysicalComputing/TOOLs.md
-	"	26	5
-	^	26	6
-	.	26	6
-	+	19	0
-	+	27	0
-	+	20	11
-	+	21	4
-	+	20	2
-	+	21	14
-	+	22	80
-	+	23	54
-	+	24	6
-	+	27	0
-	+	25	79
-	+	26	6
-
-> ~/Documents/#docs/SE/SE.PhysicalComputing/HW/hwDdm/index.md
-	"	1	0
-	^	6	14
-	.	24	0
-	+	8	0
-	+	9	0
-	+	9	9
-	+	8	17
-	+	9	0
-	+	2	0
-	+	4	17
-	+	3	0
-	+	4	0
-	+	5	4
-	+	6	5
-	+	5	0
-	+	6	0
-	+	5	0
-	+	6	0
-	+	5	11
-	+	6	13
-	+	24	0
-
-> ~/Documents/#docs/SE/SE.PhysicalComputing/PROTOCOLs/PROTOCOLs.md
-	"	14	3
-	^	14	14
-	.	15	0
-	+	15	11
-	+	15	5
-	+	15	0
-	+	14	13
-	+	15	0
-
-> ~/Documents/#docs/SE/SE.PhysicalComputing/PROTOCOLs/LoRa/LoRa.md
-	"	27	0
-	^	26	10
-	.	26	77
-	+	17	32
-	+	17	23
-	+	17	49
-	+	17	40
-	+	17	17
-	+	17	96
-	+	17	31
-	+	17	31
-	+	17	29
-	+	17	56
-	+	17	72
-	+	17	49
-	+	17	38
-	+	17	25
-	+	17	26
-	+	17	47
-	+	17	101
-	+	17	101
-	+	17	2
-	+	17	2
-	+	13	0
-	+	11	0
-	+	9	0
-	+	9	0
-	+	11	78
-	+	11	0
-	+	11	77
-	+	11	78
-	+	11	79
-	+	11	80
-	+	11	72
-	+	11	79
-	+	11	79
-	+	11	77
-	+	11	77
-	+	11	79
-	+	11	78
-	+	11	80
-	+	11	76
-	+	11	62
-	+	11	79
-	+	11	0
-	+	11	2
-	+	7	0
-	+	13	0
-	+	11	0
-	+	11	0
-	+	13	0
-	+	13	1
-	+	13	81
-	+	13	0
-	+	13	78
-	+	13	80
-	+	13	2
-	+	13	2
-	+	13	78
-	+	13	80
-	+	13	2
-	+	13	77
-	+	13	75
-	+	13	74
-	+	13	80
-	+	13	71
-	+	13	77
-	+	13	2
-	+	11	19
-	+	17	0
-	+	12	0
-	+	13	0
-	+	32	0
-	+	9	21
-	+	12	0
-	+	10	0
-	+	7	0
-	+	10	0
-	+	8	0
-	+	14	0
-	+	15	0
-	+	16	25
-	+	6	0
-	+	6	0
-	+	18	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	22	10
-	+	23	0
-	+	27	0
-	+	23	19
-	+	24	41
-	+	25	0
-	+	27	0
-	+	25	25
-	+	26	0
-	+	27	0
-	+	27	0
-	+	27	0
-	+	26	77
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/custom-quick-and-dirty-script/custom-quick-and-dirty-script.md
-	"	20	0
-	^	16	0
-	.	16	0
-	+	14	0
-	+	14	6
-	+	14	18
-	+	14	21
-	+	14	0
-	+	14	0
-	+	14	0
-	+	14	0
-	+	14	0
-	+	14	0
-	+	14	0
-	+	14	5
-	+	14	0
-	+	15	0
-	+	15	0
-	+	14	0
-	+	14	1
-	+	14	61
-	+	14	51
-	+	14	0
-	+	14	50
-	+	15	0
-	+	15	7
-	+	17	0
-	+	17	0
-	+	17	0
-	+	8	14
-	+	8	0
-	+	8	0
-	+	8	0
-	+	9	0
-	+	7	0
-	+	11	0
-	+	13	0
-	+	12	1
-	+	12	0
-	+	12	2
-	+	12	0
-	+	12	89
-	+	12	0
-	+	12	0
-	+	12	0
-	+	12	65
-	+	12	9
-	+	11	16
-	+	11	30
-	+	13	9
-	+	14	2
-	+	15	9
-	+	8	2
-	+	10	0
-	+	9	2
-	+	10	0
-	+	10	2
-	+	12	0
-	+	10	0
-	+	11	51
-	+	12	2
-	+	13	2
-	+	14	2
-	+	15	2
-	+	17	0
-	+	18	0
-	+	16	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/tty|GUI.md
-	"	12	2
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/TTY/TTY.md
-	"	37	0
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/BYOBU/BYOBU.md
-	"	7	0
-	^	5	18
-	.	7	0
-	+	1	0
-	+	4	0
-	+	7	0
-	+	8	0
-	+	4	4
-	+	4	0
-	+	5	6
-	+	4	0
-	+	4	0
-	+	2	9
-	+	4	4
-	+	5	82
-	+	4	8
-	+	3	18
-	+	7	0
-	+	4	18
-	+	5	17
-	+	6	19
-	+	6	109
-	+	7	0
-
-> ~/Documents/#docs/SE/seDdm/JSON.md
-	"	7	0
-	^	6	10
-	.	6	27
-	+	5	19
-	+	6	27
-
-> ~/Documents/#docs/SE/AI|DataScience/aidsDdm/index.md
-	"	21	0
-	^	20	10
-	.	20	26
-	+	19	19
-	+	20	0
-	+	21	0
-	+	20	26
-
-> ~/Documents/#docs/SE/ComputerScience/csDdm/index.md
-	"	44	2
-	^	180	10
-	.	180	19
-	+	179	19
-	+	180	19
-
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/TUTORIAL.md
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/RESET.md
 	"	1	0
 
-> ~/Documents/#docs/SE/CODE/codeDdm/TextSurgeryTools/index.md
-	"	1	0
-	.	18	0
-	+	15	0
-	+	28	0
-	+	22	0
-	+	26	0
-	+	28	0
-	+	17	0
-	+	28	0
-	+	18	0
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/REBASE.md
+	"	29	0
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/FileViewer.md
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/CHERRY-PICKING.md
 	"	1	0
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/FileSystems.md
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/AMENDING.md
 	"	1	0
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/File Copy & Backup.md
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/BISECT.md
 	"	1	0
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/Logs.md
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/DotFiles with Git-bare-repo.md
 	"	1	0
 
-> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/LVM.md
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/CONTENTs of .config files.md
+	"	2	22
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/What can you do with dot files?.md
+	"	3	0
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/VERSION 2.0.md
+	"	37	9
+
+> ~/Documents/#docs/SE/os.UNIX|Linux/TOOLs/DotFiles/DotFiles with Environment-variables.md
+	"	1	0
+
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/BRANCH.md
+	"	1	0
+
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/LIST.md
+	"	1	0
+
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/CREATE.md
+	"	1	0
+
+> ~/Documents/#docs/SE/CODE/TOOLs/VersionControlSystem/Git/gitDdm/SWITCH.md
 	"	1	0
