@@ -1,5 +1,6 @@
 #! /bin/sh
 
+stow -t ~/Pictures/ Wallpapers
 stow bash
 stow binwalk
 stow dmenu
