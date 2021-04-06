@@ -24,14 +24,14 @@ syntax on
  set pastetoggle=<F2> "RESEARCH
  set clipboard=unnamed " This allows you to copy/paste from other Apps to Vim
 " ----------------------------------------------------------------------------- 
- 
+
 " =============================================================================
 " Mouse and Backspace
 "
  set mouse=a " Enables the interaction of mouse over Vim file(on OSX - Press ALT & Click)
  set bs=2    " make BackSpace behave like normal again
 " ----------------------------------------------------------------------------- 
- 
+
 " =============================================================================
 " <Leader> key by default is back-slash --> \
 " Rebind <Leader> key with 'mapleader' built-in function provided by Vim
@@ -49,7 +49,7 @@ syntax on
 "
 " :help leader
 " -----------------------------------------------------------------------------
- 
+
 " =============================================================================
 "
 " Bind nohl - RESEARCH...
@@ -66,7 +66,7 @@ syntax on
 " vnoremap <C-n> :nohl<CR>
 " inoremap <C-n> :nohl<CR>
 " -----------------------------------------------------------------------------
- 
+
 " =============================================================================
 " Quicksave Command
 " 
@@ -77,14 +77,14 @@ syntax on
 " where,
 " <Z> - Z/z
 " ----------------------------------------------------------------------------- 
- 
+
 " =============================================================================
 " Quick quit command
 "
  noremap <Leader>e :quit<CR> "Quit current window
  noremap <Leader>E :qa!<CR> "Quit all windows
 " -----------------------------------------------------------------------------
- 
+
 " =============================================================================
 " MOVE | NAVIGATE BETWEEN SPLITs
 " RESEARCH - feature not working as intended...
@@ -96,7 +96,7 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l 
 map <C-h> <C-w>h 
 " -----------------------------------------------------------------------------
- 
+
 " =============================================================================
 " easier moving between tabs
 "
@@ -109,14 +109,14 @@ map <C-h> <C-w>h
 " http://vim.wikia.com/wiki/Using_tab_pages
 " https://www.linux.com/learn/vim-tips-using-tabs
 " -----------------------------------------------------------------------------
- 
+
 " =============================================================================
 " map SORT function to a key
 " AWEEESOOOOMEEEEEEEEEEEEEE!
 "
  vnoremap <Leader>s :sort<CR>
 " -----------------------------------------------------------------------------
- 
+
 " =============================================================================
 " easier moving of CODE BLOCKs 
 " You can do it without this, however it looses its selection
@@ -125,7 +125,7 @@ map <C-h> <C-w>h
 " vnoremap < <gv " better indentation
 " vnoremap > >gv " better indentation
 " -----------------------------------------------------------------------------
- 
+
 " =============================================================================
 " Show Trailing-whitespace - RESEARCH MORE...
 " ------------------------
