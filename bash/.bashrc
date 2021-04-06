@@ -133,7 +133,6 @@ alias o="xdg-open ."
 alias x=xdg-open
 
 # Path Alias
-alias git_workshop='cd /home/variable/git_workshop'
 alias docs='cd /home/variable/Documents/#docs'
 alias Ddm='cd /home/variable/Documents/#docs/SE/seDdm/research.docProc/Markdown' # Ddm - Docx/s Dot Markdown
 alias seDdm='cd /home/variable/Documents/#docs/SE/seDdm'
@@ -142,17 +141,31 @@ alias vimDdm='cd /home/variable/Documents/#docs/SE/CODE/IDE/Vim/vDdm'
 alias tmuxDdm='cd /home/variable/Documents/#docs/SE/CODE/IDE/TmuxDdm'
 alias osDdm='cd /home/variable/Documents/#docs/SE/os.UNIX\|Linux/osDdm'
 
-alias androidDdm='cd /home/variable/Documents/#docs/ANDROID/AndroidDdm'
+# DBMS
+alias dbmsDdm='cd /home/variable/Documents/#docs/SE/SE.DBMS/'
+# DBMS: MariaDB
+alias dbms_mariadb='cd /home/variable/Documents/#docs/SE/SE.DBMS/MariaDB/'
+# DBMS: MariaDB
+alias dbms_sqlite='cd /home/variable/Documents/#docs/SE/SE.DBMS/SQLite/'
 
-# Path Alias: PY
+# PY
 alias pyDoc='cd /home/variable/Documents/#docs/Python'
 alias pyDev='cd /home/variable/Documents/#docs/SE/CODE/codeDdm/codebase/Python/'
 
-alias goDev='cd /home/variable/Documents/#docs/Go'
+# Java
 alias javaDev='cd /home/variable/Documents/#docs/JAVA'
+
+# Android
+alias androidDdm='cd /home/variable/Documents/#docs/ANDROID/AndroidDdm'
 alias androidDev='cd /home/variable/Documents/#docs/ANDROID'
+
+# Golang
+alias goDev='cd /home/variable/Documents/#docs/Go'
+
+# R
 alias rDev='cd /home/variable/Documents/#docs/R'
 
 # GitHub
+alias git_workshop='cd /home/variable/git_workshop'
 alias graph="git log --all --decorate --oneline --graph" 
 alias graphlg="git log --all --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white) - %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative"
