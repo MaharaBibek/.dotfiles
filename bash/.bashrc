@@ -169,3 +169,6 @@ alias rDev='cd /home/variable/Documents/#docs/R'
 alias git_workshop='cd /home/variable/git_workshop'
 alias graph="git log --all --decorate --oneline --graph" 
 alias graphlg="git log --all --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white) - %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative"
+
+# FZF: Auto-added line through 'install' script from GitHub.
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

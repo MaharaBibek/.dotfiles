@@ -1,17 +1,19 @@
 # APPLICATIONS
-+ bash
-+ binwalk
-+ dmenu
-+ i3
++ SHELLs:
+    - zsh
+    - bash
+    - ssh
++ GUI:
+    - dmenu
+    - polybar
+    - tmux
+    - vifm
+    - vim
+    - ranger
+    - NERDTree
+    - i3
 + inputrc
++ binwalk
 + lxc
-+ NERDTree
-+ polybar
 + profile
-+ ranger
 + README.md
-+ ssh
-+ tmux
-+ vifm
-+ vim
-+ zsh
