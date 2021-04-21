@@ -227,6 +227,7 @@ set noswapfile
 " Now you can install any plugin into a .vim/bundle/plugin-name/ folder
 "
  call pathogen#infect() 
+ call pathogen#helptags() 
 " -----------------------------------------------------------------------------
 
 " =============================================================================
@@ -337,6 +338,13 @@ let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown'
 " =============================================================================
 " =============================================================================
 
+" Limelight: Color name (:help cterm-colors) or ANSI code
+let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_conceal_ctermfg = 240
+
+" =============================================================================
+" =============================================================================
+
 " CUSTOM CODE-SNIPPET
 "
 " Start Turning vim into a /comfy/ IDE!: Luke Smith
@@ -344,8 +352,7 @@ let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown'
 "
 " In INSERT-MODE, Press <Space> twice to get to the <++>, 
 " while "_ means: Delete it and put it in empty buffer. 
- inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
-
+ autocmd filetype markdown,html inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
 
 " When the file is HTML, map the key-combo ;i to generate HTML-snippet
 " <em></em><Space><++>, and so on...
@@ -360,7 +367,7 @@ let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown'
 " AND,
  autocmd FileType markdown,html inoremap ;p <p></p><EnTeR><eNtEr><++><Esc>02k3li
 
-" AND, This code snipped is written as an assignment, and practice.
+" AND, This code snippet is written as an assignment, and practice.
  autocmd fIlEtYpE markdown,html inoremap ;c <!--  --><Enter><++><Esc>0k/<!--<Enter>4li
 
 " thoughtbot: ULTIMATE VDO
@@ -370,3 +377,11 @@ let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown'
 
 " Read an empty HTML template and move cursor to title
 nnoremap ,html :-1read ~/.vim/code_snippets/html/skeleton/.skeleton.html<CR>3jwf>a
+
+" Mapping - Comment(Both at Normal & Insert mode)
+autocmd filetype python,sh nnoremap <Leader>c ^i# 0
+autocmd filetype python,sh inoremap <Leader>c ^i# 0
+autocmd filetype python,sh nnoremap <Leader>nc ^dw
+autocmd filetype python,sh inoremap <Leader>nc ^dw
+
+set path+=**
